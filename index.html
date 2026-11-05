@@ -1,4 +1,11 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="description" content="Herrerías Casting: agencia de talento y casting de extras para telenovelas, series, cine y publicidad en CDMX."><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="description" content="Herrerías Casting: agencia de talento y casting de extras para telenovelas, series, cine y publicidad en CDMX."><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}
+main>section[data-view]{display:none}
+main>section[data-view].on{display:block}
+main>section.qband.on{display:block}
+.view-in{animation:viewIn .35s ease}
+@keyframes viewIn{from{opacity:0;transform:translateY(8px)}}
+#diferente+#agencia{padding-top:0}
+</style></head><body>
 <title>Herrerías Casting</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -429,7 +436,7 @@ footer{background:#08080a;padding-block:72px 32px;border-top:1px solid var(--lin
 
 <main>
 <!-- ============ PORTADA ============ -->
-<section id="portada" class="hero">
+<section id="portada" class="hero" data-view="portada">
   <div class="wrap hero-grid">
     <div class="hero-copy">
       <p class="eyebrow">AGENCIA DE TALENTO · CDMX · MÁS DE 12 AÑOS EN SET</p>
@@ -446,7 +453,7 @@ footer{background:#08080a;padding-block:72px 32px;border-top:1px solid var(--lin
   </div>
 </section>
 
-<section class="stats-band" aria-label="Trayectoria">
+<section class="stats-band" aria-label="Trayectoria" data-view="portada">
   <div class="wrap stats3">
     <div><b>12+</b><span>años de experiencia</span></div>
     <div><b id="totalN">110</b><span>producciones y marcas en nuestro CV</span></div>
@@ -454,21 +461,9 @@ footer{background:#08080a;padding-block:72px 32px;border-top:1px solid var(--lin
   </div>
 </section>
 
-<section class="block" id="diferente">
-  <div class="wrap">
-    <div class="sec-head"><h2>Lo que hacemos<br>diferente</h2><p>Una operación pensada para que producción pueda concentrarse en contar la historia.</p></div>
-    <div class="diff">
-      <div><h3>RESPUESTA</h3><p>Propuestas de talento con disponibilidad, tarifa sugerida y notas relevantes.</p></div>
-      <div><h3>LOGÍSTICA</h3><p>Registro y coordinación de horarios, vestuario, maquillaje y ubicación en set.</p></div>
-      <div><h3>CONTINUIDAD</h3><p>Acciones claras y repetibles para mantener la continuidad de cada escena.</p></div>
-      <div><h3>GRUPOS</h3><p>Organización y manejo profesional de grupos grandes de talento.</p></div>
-      <div><h3>SET</h3><p>Coordinadores que conocen la dinámica y el lenguaje cinematográfico.</p></div>
-      <div><h3>CONTINGENCIAS</h3><p>Reemplazos, cambios de último momento y clima: lo resolvemos en el día.</p></div>
-    </div>
-  </div>
-</section>
 
-<section class="qband" aria-label="Búsqueda rápida">
+
+<section class="qband" aria-label="Búsqueda rápida" data-view="portada">
   <div class="wrap qband-in">
     <div><p class="eyebrow dark">BÚSQUEDA RÁPIDA</p><h2>¿Qué perfil<br>necesitas?</h2></div>
     <form class="qsearch" id="qsearch" novalidate>
@@ -482,7 +477,7 @@ footer{background:#08080a;padding-block:72px 32px;border-top:1px solid var(--lin
 </section>
 
 <!-- ============ BUSCADOR ============ -->
-<section id="buscador" class="block alt">
+<section id="buscador" class="block alt" data-view="buscador">
   <div class="wrap">
     <div class="sec-head">
       <div><span class="kicker">Para agencia y productoras</span><h2>Buscador de talento</h2></div>
@@ -525,7 +520,7 @@ footer{background:#08080a;padding-block:72px 32px;border-top:1px solid var(--lin
 </section>
 
 <!-- ============ CASTING ON-LINE / LLAMADOS ============ -->
-<section id="casting" class="block">
+<section id="casting" class="block" data-view="casting">
   <div class="wrap">
     <div class="sec-head">
       <div><span class="kicker">Llamados abiertos</span><h2>Casting On-line</h2></div>
@@ -549,7 +544,7 @@ footer{background:#08080a;padding-block:72px 32px;border-top:1px solid var(--lin
 </section>
 
 <!-- ============ MI PERFIL ============ -->
-<section id="perfil" class="block">
+<section id="perfil" class="block" data-view="perfil">
   <div class="wrap">
     <div class="sec-head">
       <div><span class="kicker">Registro de extras y talento</span><h2>Mi perfil</h2></div>
@@ -595,7 +590,7 @@ footer{background:#08080a;padding-block:72px 32px;border-top:1px solid var(--lin
 </section>
 
 <!-- ============ PROYECTOS ============ -->
-<section id="proyectos" class="block alt">
+<section id="proyectos" class="block alt" data-view="proyectos">
   <div class="wrap">
     <div class="sec-head">
       <div><span class="kicker">Portafolio</span><h2>Proyectos</h2></div>
@@ -613,7 +608,21 @@ footer{background:#08080a;padding-block:72px 32px;border-top:1px solid var(--lin
 </section>
 
 <!-- ============ AGENCIA ============ -->
-<section id="agencia" class="block">
+<section class="block" id="diferente" data-view="agencia">
+  <div class="wrap">
+    <div class="sec-head"><h2>Lo que hacemos<br>diferente</h2><p>Una operación pensada para que producción pueda concentrarse en contar la historia.</p></div>
+    <div class="diff">
+      <div><h3>RESPUESTA</h3><p>Propuestas de talento con disponibilidad, tarifa sugerida y notas relevantes.</p></div>
+      <div><h3>LOGÍSTICA</h3><p>Registro y coordinación de horarios, vestuario, maquillaje y ubicación en set.</p></div>
+      <div><h3>CONTINUIDAD</h3><p>Acciones claras y repetibles para mantener la continuidad de cada escena.</p></div>
+      <div><h3>GRUPOS</h3><p>Organización y manejo profesional de grupos grandes de talento.</p></div>
+      <div><h3>SET</h3><p>Coordinadores que conocen la dinámica y el lenguaje cinematográfico.</p></div>
+      <div><h3>CONTINGENCIAS</h3><p>Reemplazos, cambios de último momento y clima: lo resolvemos en el día.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="agencia" class="block" data-view="agencia">
   <div class="wrap">
     <div class="sec-head">
       <div><span class="kicker">Conócenos</span><h2>Nuestra agencia</h2></div>
@@ -635,7 +644,7 @@ footer{background:#08080a;padding-block:72px 32px;border-top:1px solid var(--lin
 </section>
 
 <!-- ============ UBICACIÓN ============ -->
-<section id="ubicacion" class="block">
+<section id="ubicacion" class="block" data-view="ubicacion">
   <div class="wrap">
     <div class="sec-head">
       <div><span class="kicker">Oficinas</span><h2>¿Dónde estamos?</h2></div>
@@ -657,7 +666,7 @@ footer{background:#08080a;padding-block:72px 32px;border-top:1px solid var(--lin
 </section>
 
 <!-- ============ CONTACTO ============ -->
-<section id="contacto" class="block alt">
+<section id="contacto" class="block alt" data-view="contacto">
   <div class="wrap">
     <div class="sec-head">
       <div><span class="kicker">Para productoras</span><h2>Solicitud de casting</h2></div>
@@ -667,8 +676,8 @@ footer{background:#08080a;padding-block:72px 32px;border-top:1px solid var(--lin
       <div>
         <p style="font-weight:600;font-size:1.05rem">Para hacer una solicitud de Casting o Extras comunícate con nosotros:</p>
         <div class="phones">
-          <div class="phone"><span>(55) 4817 6595</span><button class="copy" data-copy="55 4817 6595">Copiar</button></div>
-          <div class="phone"><span>(55) 2728 0624</span><button class="copy" data-copy="55 2728 0624">Copiar</button></div>
+          <div class="phone"><span>(56) 6511 0728</span><button class="copy" data-copy="+52 1 56 6511 0728">Copiar</button></div>
+          <div class="phone"><span>(55) 4817 6595</span><button class="copy" data-copy="+52 1 55 4817 6595">Copiar</button></div>
           <div class="phone"><span class="small">herreriascasting@gmail.com</span><button class="copy" data-copy="herreriascasting@gmail.com">Copiar</button></div>
         </div>
       </div>
@@ -700,7 +709,7 @@ footer{background:#08080a;padding-block:72px 32px;border-top:1px solid var(--lin
       <div><h5>Nuestra agencia</h5><ul>
         <li><a href="#perfil">Mi Perfil</a></li><li><a href="#ubicacion">¿Dónde Estamos?</a></li><li><a href="#agencia" data-panel="quienes">¿Quiénes Somos?</a></li><li><a href="#agencia" data-panel="como">¿Cómo Trabajamos?</a></li><li><a href="#agencia" data-panel="online">Casting Online ¿Qué Es?</a></li><li><a href="#agencia" data-panel="porque">¿Por qué Herrerías?</a></li><li><a href="#agencia" data-panel="clientes">Nuestros Clientes</a></li><li><a href="#agencia" data-panel="equipo">Equipo Directivo</a></li><li><a href="#agencia" data-panel="privacidad">Aviso de Privacidad</a></li>
       </ul></div>
-      <div><h5>Solicitud de casting</h5><p style="opacity:.85;font-size:.94rem">Para hacer una solicitud de Casting o Extras comunícate con nosotros a:</p><p style="margin-top:12px"><b>Teléfonos:</b><br>(55) 4817 6595<br>ó<br>(55) 2728 0624<br><br>herreriascasting@gmail.com</p><a class="btn btn-yellow btn-sm" href="#contacto" style="margin-top:16px">Enviar solicitud</a></div>
+      <div><h5>Solicitud de casting</h5><p style="opacity:.85;font-size:.94rem">Para hacer una solicitud de Casting o Extras comunícate con nosotros a:</p><p style="margin-top:12px"><b>Teléfonos:</b><br>(56) 6511 0728<br>ó<br>(55) 4817 6595<br><br>herreriascasting@gmail.com</p><a class="btn btn-yellow btn-sm" href="#contacto" style="margin-top:16px">Enviar solicitud</a></div>
       <div><h5>Proyectos</h5><ul><li><a href="#proyectos" data-cat="televisa">Televisa</a></li><li><a href="#proyectos" data-cat="tvazteca">TV Azteca</a></li><li><a href="#proyectos" data-cat="canal11">Canal 11</a></li><li><a href="#proyectos" data-cat="cine">Cine y series</a></li><li><a href="#proyectos" data-cat="publicidad">Publicidad</a></li></ul>
         <div class="socials">
           <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M14 8h3V4h-3c-2.8 0-4.5 1.8-4.5 4.6V11H7v4h2.5v9h4v-9h3l.5-4h-3.5V8.8c0-.5.3-.8.5-.8z"/></svg></a>
@@ -824,8 +833,15 @@ ddBtn.onclick=e=>{e.stopPropagation();setDD(ddMenu.hidden)};
 document.addEventListener('click',e=>{if(!dd.contains(e.target))setDD(false)});
 links.addEventListener('click',e=>{if(e.target.closest('a')){links.classList.remove('open');burger.setAttribute('aria-expanded',false);setDD(false)}});
 const navLinks=$$('.links>a[data-link]');
-const io=new IntersectionObserver(es=>es.forEach(en=>{if(en.isIntersecting)navLinks.forEach(l=>l.classList.toggle('active',l.getAttribute('href')==='#'+en.target.id))}),{rootMargin:'-45% 0px -50% 0px'});
-$$('main section[id]').forEach(s=>io.observe(s));
+const VIEWS=['portada','buscador','casting','perfil','proyectos','agencia','ubicacion','contacto'];
+function go(v,push){if(!VIEWS.includes(v))v='portada';
+ $$('main>section[data-view]').forEach(sec=>{const on=sec.dataset.view===v;sec.classList.toggle('on',on);if(on&&!reduce){sec.classList.remove('view-in');void sec.offsetWidth;sec.classList.add('view-in')}});
+ navLinks.forEach(l=>l.classList.toggle('active',l.getAttribute('href')==='#'+v));
+ if(push!==false&&location.hash!=='#'+v){try{history.pushState(null,'','#'+v)}catch(e){}}
+ window.scrollTo(0,0);if(v==='ubicacion')setTimeout(drawMap,30)}
+document.addEventListener('click',e=>{const a=e.target.closest('a[href^="#"]');if(!a)return;const v=a.getAttribute('href').slice(1);if(VIEWS.includes(v)){e.preventDefault();go(v)}});
+addEventListener('popstate',()=>go(location.hash.slice(1),false));
+go(location.hash.slice(1),false);
 
 /* ---------- filtros ---------- */
 const F={tipo:new Set(),sexo:'',ageMin:'',ageMax:'',hMin:'',hMax:'',comp:new Set(),tez:new Set(),pelo:new Set(),skills:new Set(),city:'',avail:false,noTat:false,car:false,text:'',sort:'disp'};
@@ -928,7 +944,7 @@ $('#tgrid').addEventListener('click',e=>{const o=e.target.closest('[data-open]')
 function qCount(){const f={...F,tipo:new Set($('#qTipo').value?[$('#qTipo').value]:[]),comp:new Set(),tez:new Set(),pelo:new Set(),skills:new Set(),sexo:$('#qSexo').value,ageMin:$('#qMin').value,ageMax:$('#qMax').value,hMin:'',hMax:'',city:'',avail:false,noTat:false,car:false,text:''};
  $('#qsCount').textContent=TALENT.filter(p=>match(p,f)).length+' perfiles'}
 ['#qTipo','#qSexo','#qMin','#qMax'].forEach(s=>$(s).addEventListener('input',qCount));
-$('#qsearch').onsubmit=e=>{e.preventDefault();resetF();if($('#qTipo').value)F.tipo.add($('#qTipo').value);F.sexo=$('#qSexo').value;F.ageMin=$('#qMin').value;F.ageMax=$('#qMax').value;syncUI();shown=PAGE;run();$('#buscador').scrollIntoView({behavior:reduce?'auto':'smooth'})};
+$('#qsearch').onsubmit=e=>{e.preventDefault();resetF();if($('#qTipo').value)F.tipo.add($('#qTipo').value);F.sexo=$('#qSexo').value;F.ageMin=$('#qMin').value;F.ageMax=$('#qMax').value;syncUI();shown=PAGE;run();go('buscador')};
 
 /* ---------- llamados ---------- */
 const CALLS=[
@@ -950,7 +966,7 @@ drawCalls();
 $('#callF').onclick=e=>{const b=e.target.closest('.chip');if(!b)return;cf=b.dataset.f;$$('#callF .chip').forEach(x=>x.setAttribute('aria-pressed',x===b));drawCalls()};
 $('#tickets').onclick=e=>{const c=e.target.closest('[data-cand]');if(c){const call=CALLS.find(x=>x.code===c.dataset.cand);presetF(call.f);syncUI();shown=PAGE;run();
   if(!$('#sProj').value){$('#sProj').value=call.cat+' '+call.prod;$('#sScene').value=call.title;$('#sPlace').value=call.place}
-  $('#buscador').scrollIntoView({behavior:reduce?'auto':'smooth'});toast('Filtros del llamado '+call.code+' aplicados');return}
+  go('buscador');toast('Filtros del llamado '+call.code+' aplicados');return}
  const a=e.target.closest('[data-apply]');if(!a)return;const call=CALLS.find(x=>x.code===a.dataset.apply);
  $('#applyCode').textContent=call.code+' · '+call.cat;$('#applyTitle').textContent=call.title;$('#applyDesc').textContent=call.prod+' · '+call.date+' · '+call.place+'. '+call.desc;
  $('#applyForm').hidden=false;$('#applyOk').hidden=true;$('#applyMsg').textContent='';if(!$('#aName').value&&$('#pName').value)$('#aName').value=$('#pName').value;openModal('#applyModal')};
@@ -1008,11 +1024,11 @@ const AG={
  online:`<h3>Casting Online ¿Qué es?</h3><p>Es la forma de aplicar a un llamado sin ir a la oficina. Te registras una vez, eliges el llamado y confirmas tu disponibilidad. Para papeles con diálogo, mandas tu <b>self-tape</b> y nosotros lo presentamos a la producción.</p><a class="btn btn-pink btn-sm" href="#casting">Ver llamados abiertos</a>`,
  porque:`<h3>¿Por qué Herrerías?</h3><p>Una operación pensada para que producción pueda concentrarse en contar la historia.</p><div class="pillars"><div class="pillar"><h4>Respuesta</h4><p>Propuestas de talento, disponibilidad, tarifa sugerida y notas relevantes.</p></div><div class="pillar"><h4>Logística</h4><p>Registro y coordinación de horarios, vestuario, maquillaje y ubicación en set.</p></div><div class="pillar"><h4>Continuidad</h4><p>Acciones claras y repetibles para mantener la continuidad de las escenas.</p></div><div class="pillar"><h4>Grupos</h4><p>Organización y manejo profesional de grupos grandes de talento.</p></div><div class="pillar"><h4>Set</h4><p>Coordinadores familiarizados con la dinámica y el lenguaje cinematográfico.</p></div><div class="pillar"><h4>Contingencias</h4><p>Respuesta ante reemplazos, cambios de último momento y otras necesidades.</p></div></div><p style="margin-top:16px">Capacitamos a cada integrante del equipo en lenguaje cinematográfico, experiencia práctica y habilidades de organización y liderazgo, para que nuestros coordinadores puedan cubrir varios roles en el set.</p>`,
  clientes:`<h3>Nuestros clientes</h3><p>Experiencia en proyectos de Televisa, TV Azteca y Canal 11, incluyendo telenovelas, series, programas y contenido vertical, además de cine y campañas para marcas.</p><div class="brands">${['Televisa','TV Azteca','Canal 11','Coca-Cola','Levi’s','GMC','Tecate','Elektra','Cerveza Indio','Presidente','Sushi Itto','UTEL','SEP','Domino’s','P.F. Chang’s','Chili’s','Italianni’s','SPIN Premia'].map(b=>`<span>${b}</span>`).join('')}</div><a class="btn btn-sm" href="#proyectos" style="margin-top:16px">Ver todos los proyectos</a>`,
- equipo:`<h3>Equipo directivo</h3><p>Una estructura enfocada en talento, operación y atención al cliente.</p><div class="team"><div class="member"><span class="role">Presidente</span><b>Rafael Herrerías Olea</b><span>+52 55 2728 0624</span><span>herreriascasting@gmail.com</span></div><div class="member"><span class="role">Director general</span><b>Emiliano Herrerías</b><span>+52 55 4817 6595</span><span>herreriascasting@gmail.com</span></div><div class="member"><span class="role">Dirección de talento</span><b>Ana Paulina Domínguez</b><span>herreriascasting@gmail.com</span></div></div>`,
+ equipo:`<h3>Equipo directivo</h3><p>Una estructura enfocada en talento, operación y atención al cliente.</p><div class="team"><div class="member"><span class="role">Presidente</span><b>Rafael Herrerías Olea</b><span>herreriascasting@gmail.com</span></div><div class="member"><span class="role">Director general</span><b>Emiliano Herrerías</b><span>+52 55 4817 6595</span><span>herreriascasting@gmail.com</span></div><div class="member"><span class="role">Dirección de talento</span><b>Ana Paulina Domínguez</b><span>herreriascasting@gmail.com</span></div></div>`,
  privacidad:`<h3>Aviso de privacidad</h3><div class="privacy"><p><b>Herrerías Casting</b>, con domicilio en Av. Del Parque 3, Col. Campestre, Álvaro Obregón, C.P. 01040, Ciudad de México, es responsable del uso y protección de tus datos personales conforme a la Ley Federal de Protección de Datos Personales en Posesión de los Particulares.</p><h4>¿Para qué usamos tus datos?</h4><p>Para integrar tu ficha a nuestra base de talento, proponerte en llamados, contactarte y gestionar pagos.</p><h4>¿Qué datos recabamos?</h4><p>Nombre, edad, medidas, tallas, fotos, videos de audición, contacto y experiencia.</p><h4>Derechos ARCO</h4><p>Puedes acceder, rectificar, cancelar u oponerte al uso de tus datos escribiendo a herreriascasting@gmail.com.</p><p class="hint">Texto de referencia: revísenlo con su asesor legal antes de publicar.</p></div>`};
 function showAG(k){$('#agPanel').innerHTML=AG[k];$$('#agTabs button').forEach(b=>b.setAttribute('aria-selected',b.dataset.p===k))}
 showAG('quienes');$('#agTabs').onclick=e=>{const b=e.target.closest('button');if(b)showAG(b.dataset.p)};
-$$('[data-panel]').forEach(a=>a.addEventListener('click',()=>{showAG(a.dataset.panel);if(a.tagName==='BUTTON')$('#agencia').scrollIntoView({behavior:reduce?'auto':'smooth'})}));
+$$('[data-panel]').forEach(a=>a.addEventListener('click',()=>{showAG(a.dataset.panel);if(a.tagName==='BUTTON')go('agencia')}));
 
 /* ---------- mapa ---------- */
 const mc=$('#map');
