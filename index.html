@@ -1,0 +1,1046 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="description" content="Herrerías Casting: agencia de talento y casting de extras para telenovelas, series, cine y publicidad en CDMX."><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Herrerías Casting</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: créditos finales — negro de sala, tipografía condensada gigante, reglas finas, acento dorado de luz de proyector */
+:root{
+  --bg:#0d0d0f; --bg2:#141417; --bg3:#1b1b1f;
+  --line:#2a2a2e; --line2:#3d3d43;
+  --fg:#f3f1ec; --mid:#c9c5bd; --mute:#9a968e;
+  --gold:#f2b544; --gold2:#ffd27a; --cream:#f3f1ec; --ok:#62c491;
+  --f-display:"Anton",Impact,"Arial Narrow",sans-serif;
+  --f-body:"Archivo","Helvetica Neue",Arial,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  --gutter:clamp(16px,4vw,48px);
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:16px;line-height:1.55;overflow-x:hidden}
+h1,h2,h3,h4{margin:0;text-wrap:balance}
+p{margin:0}
+a{color:inherit}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.wrap{max-width:1280px;margin-inline:auto;padding-inline:var(--gutter)}
+.mono,.lbl,.kicker,.eyebrow{font-family:var(--f-mono)}
+
+/* cinta */
+.strip{border-bottom:1px solid var(--line);overflow:hidden;white-space:nowrap;background:#08080a}
+.strip-track{display:inline-flex;align-items:center;gap:22px;padding:8px 0;animation:roll 60s linear infinite;font-family:var(--f-mono);font-size:.7rem;letter-spacing:.2em;color:var(--mute)}
+.strip i{color:var(--gold);font-style:normal}
+@keyframes roll{to{transform:translateX(-50%)}}
+
+/* barra */
+.topbar{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:rgba(13,13,15,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;gap:20px 36px;min-height:72px;position:relative}
+.brand{display:flex;flex-direction:column;line-height:1;text-decoration:none}
+.brand b{font-family:var(--f-display);font-weight:400;font-size:26px;letter-spacing:.04em}
+.brand small{font-family:var(--f-mono);font-size:10px;letter-spacing:.5em;color:var(--mute);margin-top:4px}
+.links{display:flex;align-items:center;gap:4px 26px;margin-left:auto;font-size:.92rem}
+.links>a,.links>.dd>button{background:none;border:0;padding:8px 0;color:var(--mid);text-decoration:none;cursor:pointer;display:flex;align-items:center;gap:6px}
+.links>a:hover,.links>.dd>button:hover{color:var(--fg)}
+.links>a.active{color:var(--fg);box-shadow:inset 0 -1px 0 var(--gold)}
+.dd{position:relative}
+.dd svg{transition:transform .2s}.dd.open svg{transform:rotate(180deg)}
+.dd-menu{position:absolute;top:calc(100% + 14px);left:-16px;min-width:250px;background:var(--bg2);border:1px solid var(--line2);padding:8px;display:grid;box-shadow:0 24px 48px rgba(0,0,0,.5)}
+.dd-menu a{padding:10px 12px;text-decoration:none;color:var(--mid);font-size:.92rem}
+.dd-menu a:hover,.dd-menu a:focus-visible{background:var(--bg3);color:var(--gold)}
+.burger{display:none;margin-left:auto;background:none;border:1px solid var(--line2);width:46px;height:42px;cursor:pointer;align-items:center;justify-content:center;border-radius:2px}
+@media (max-width:1120px){
+  .burger{display:flex}.nav-cta{display:none}
+  .links{position:absolute;left:0;right:0;top:100%;flex-direction:column;align-items:stretch;background:var(--bg2);border-bottom:1px solid var(--line2);padding:8px var(--gutter) 18px;display:none;max-height:calc(100vh - 110px);overflow:auto}
+  .links.open{display:flex}
+  .links>a,.links>.dd>button{width:100%;justify-content:space-between;padding:14px 0;border-bottom:1px solid var(--line);font-size:1rem}
+  .dd-menu{position:static;border:0;box-shadow:none;background:transparent;padding:4px 0 8px 12px}
+}
+
+/* botones */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:15px 26px;border-radius:2px;border:1px solid transparent;font-weight:700;font-size:.95rem;text-decoration:none;cursor:pointer;white-space:nowrap;transition:background .2s,color .2s,border-color .2s}
+.btn-sm{padding:10px 16px;font-size:.86rem}
+.btn-gold,.btn-pink,.btn-yellow{background:var(--gold);color:#0d0d0f}
+.btn-gold:hover,.btn-pink:hover,.btn-yellow:hover{background:var(--gold2)}
+.btn-light{background:var(--fg);color:#0d0d0f}
+.btn-light:hover{background:#fff}
+.btn-line,.btn{border-color:var(--line2);color:var(--fg);background:transparent}
+.btn-line:hover,.btn:hover{border-color:var(--fg)}
+.btn-gold,.btn-pink,.btn-yellow{border-color:var(--gold);color:#0d0d0f;background:var(--gold)}
+.btn-light{border-color:var(--fg);color:#0d0d0f;background:var(--fg)}
+.btn-ink{background:#0d0d0f;color:var(--gold);border-color:#0d0d0f}
+.btn-ink:hover{background:#222;border-color:#222}
+
+/* portada */
+.hero-grid{display:flex;flex-wrap:wrap;gap:56px;align-items:flex-end;padding-block:88px 80px}
+.hero-copy{flex:999 1 600px;min-width:0}
+.eyebrow{font-size:.8rem;letter-spacing:.18em;color:var(--gold);margin-bottom:26px}
+.eyebrow.dark{color:#6b675f;margin-bottom:8px}
+.hero h1{font-family:var(--f-display);font-weight:400;font-size:clamp(3.4rem,9vw,8.4rem);line-height:.92;text-transform:uppercase}
+.hero h1 span{color:var(--gold)}
+.lede{margin-top:34px;max-width:36rem;font-size:1.18rem;line-height:1.6;color:var(--mid)}
+.hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:38px}
+.credits-col{flex:1 1 360px;min-width:0;border-left:1px solid var(--line);padding-left:40px;font-family:var(--f-mono)}
+.col-title{text-align:center;font-size:.7rem;letter-spacing:.3em;margin-bottom:18px}
+.col-sign{text-align:center;color:var(--gold);font-size:.76rem;letter-spacing:.1em;margin-top:22px}
+.pst-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 14px}
+.pst{margin:0;display:grid;gap:8px}
+.ph{aspect-ratio:2/3;max-width:100%;background:var(--bg3);border:1px dashed var(--line2);display:grid;place-items:center;overflow:hidden;position:relative}
+.ph span{font-size:.62rem;letter-spacing:.24em;color:#6d6a63}
+.ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.ph.has-img{border-style:solid;border-color:var(--line)}
+.pst b,.mini-row b{display:block;font-weight:400;font-size:.74rem;letter-spacing:.08em;color:var(--fg)}
+.pst small,.mini-row small{display:block;font-size:.62rem;letter-spacing:.16em;color:var(--mute);margin-top:3px}
+.mini-list{display:grid;gap:10px;margin-top:20px}
+.mini-row{display:flex;align-items:center;gap:14px}
+.ph.sm{width:40px;flex:none}
+@media (max-width:700px){.credits-col{border-left:0;padding-left:0;border-top:1px solid var(--line);padding-top:32px}}
+
+.stats-band{border-block:1px solid var(--line)}
+.stats3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}
+.stats3>div{padding:40px 0 40px 40px;border-left:1px solid var(--line)}
+.stats3>div:first-child{padding-left:0;border-left:0}
+.stats3 b{display:block;font-family:var(--f-display);font-weight:400;font-size:clamp(3rem,6vw,4.6rem);line-height:1}
+.stats3 span{color:var(--mute);display:block;margin-top:8px}
+@media (max-width:700px){.stats3{grid-template-columns:1fr}.stats3>div{padding:24px 0;border-left:0;border-top:1px solid var(--line)}.stats3>div:first-child{border-top:0}}
+
+/* secciones */
+.block{padding-block:clamp(72px,9vw,112px);border-bottom:1px solid var(--line)}
+.block.alt{background:var(--bg2)}
+.sec-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:20px 40px;margin-bottom:52px}
+.sec-head h2{font-family:var(--f-display);font-weight:400;font-size:clamp(2.6rem,6vw,4.6rem);line-height:1;text-transform:uppercase}
+.sec-head p{max-width:30rem;color:var(--mute);font-size:1.05rem;line-height:1.6}
+.kicker{display:block;font-size:.74rem;letter-spacing:.24em;color:var(--gold);text-transform:uppercase;margin-bottom:12px}
+.diff{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--line2)}
+.diff>div{padding:30px 30px 38px;border-bottom:1px solid var(--line);border-left:1px solid var(--line)}
+.diff>div:nth-child(3n+1){border-left:0;padding-left:0}
+.diff h3{font-family:var(--f-mono);font-weight:500;font-size:.76rem;letter-spacing:.2em;color:var(--gold)}
+.diff p{margin-top:12px;color:#d6d2ca;font-size:1.05rem;line-height:1.6}
+@media (max-width:820px){.diff{grid-template-columns:1fr}.diff>div{border-left:0;padding-left:0}}
+
+/* banda de búsqueda */
+.qband{background:var(--cream);color:#0d0d0f}
+.qband-in{display:flex;flex-wrap:wrap;gap:28px 40px;align-items:center;padding-block:64px}
+.qband h2{font-family:var(--f-display);font-weight:400;font-size:clamp(2.2rem,4vw,3.2rem);line-height:1;text-transform:uppercase}
+.qsearch{flex:999 1 620px;min-width:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr)) auto;gap:12px;align-items:end}
+.qband .lbl{color:#3d3a34}
+.qband select,.qband input{background:#fff;color:#0d0d0f;border:1px solid #0d0d0f;border-radius:2px;padding:12px;width:100%;min-width:0}
+.qs-n{font-family:var(--f-mono);font-size:.74rem;font-weight:400;color:var(--mid)}
+@media (max-width:760px){.qsearch{grid-template-columns:1fr 1fr}.qsearch .btn{grid-column:1/-1}}
+
+/* formularios */
+.card{background:var(--bg2);border:1px solid var(--line);padding:clamp(18px,3vw,30px);min-width:0}
+.block.alt .card{background:var(--bg)}
+.form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.field{display:grid;gap:6px;min-width:0}
+.field.full{grid-column:1/-1}
+.lbl{font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:var(--mute)}
+.field input,.field select,.field textarea,.range input{background:var(--bg);border:1px solid var(--line2);border-radius:2px;padding:12px;width:100%;min-width:0;color:var(--fg)}
+.field textarea{min-height:110px;resize:vertical}
+.field input:focus,.field select:focus,.field textarea:focus,.range input:focus{outline:none;border-color:var(--gold)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{background:transparent;border:1px solid var(--line2);border-radius:2px;padding:7px 12px;font-size:.84rem;color:var(--mid);cursor:pointer}
+.chip:hover{border-color:var(--fg);color:var(--fg)}
+.chip[aria-pressed="true"]{background:var(--fg);border-color:var(--fg);color:#0d0d0f}
+.swatches{display:flex;flex-wrap:wrap;gap:8px}
+.sw{width:30px;height:30px;border-radius:50%;border:1px solid var(--line2);cursor:pointer}
+.sw[aria-pressed="true"]{box-shadow:0 0 0 2px var(--bg),0 0 0 4px var(--gold)}
+.check{display:flex;gap:10px;align-items:center;font-size:.92rem;color:var(--mid);cursor:pointer}
+.check input{width:18px;height:18px;accent-color:var(--gold)}
+.upload{display:flex;align-items:center;gap:14px;border:1px dashed var(--line2);padding:12px 14px;cursor:pointer}
+.upload:hover{border-color:var(--gold)}
+.upload input{position:absolute;width:1px;height:1px;opacity:0}
+.upload .ico{width:40px;height:40px;border:1px solid var(--line2);display:grid;place-items:center;color:var(--gold);flex-shrink:0}
+.hint{font-size:.86rem;color:var(--mute)}
+.form-actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:22px}
+.note{margin-top:16px;font-size:.84rem;color:var(--mute)}
+@media (max-width:560px){.form-grid{grid-template-columns:1fr}}
+
+/* buscador */
+.search-layout{display:grid;grid-template-columns:290px minmax(0,1fr);gap:28px;align-items:start}
+.filters{position:sticky;top:96px;max-height:calc(100vh - 112px);overflow:auto;display:grid;gap:20px}
+.filters h3{font-family:var(--f-display);font-weight:400;font-size:1.7rem;text-transform:uppercase}
+.fgroup{display:grid;gap:8px}
+.range{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:8px;align-items:center;color:var(--mute)}
+.seg{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line2)}
+.seg button{background:transparent;border:0;border-right:1px solid var(--line2);padding:9px 4px;font-size:.86rem;color:var(--mid);cursor:pointer}
+.seg button:last-child{border-right:0}
+.seg button[aria-pressed="true"]{background:var(--fg);color:#0d0d0f}
+.res-bar{display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;align-items:center;margin-bottom:14px}
+.res-bar .count{font-family:var(--f-display);font-size:2.2rem;line-height:1}
+.res-bar .tools{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.searchbox{display:flex;align-items:center;gap:8px;border:1px solid var(--line2);padding:0 12px;color:var(--mute);min-width:0;background:var(--bg)}
+.searchbox input{border:0;outline:0;padding:11px 0;width:220px;max-width:100%;background:transparent;color:var(--fg);min-width:0}
+.sortsel{background:var(--bg);border:1px solid var(--line2);border-radius:2px;padding:11px 12px;color:var(--fg)}
+.active-f{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:18px;min-height:4px}
+.active-f span{border:1px solid var(--gold);color:var(--gold);padding:3px 10px;font-family:var(--f-mono);font-size:.72rem}
+.tgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px}
+.pcard{background:var(--bg);border:1px solid var(--line);display:grid;grid-template-rows:auto 1fr;min-width:0;position:relative;transition:border-color .2s}
+.pcard:hover{border-color:var(--line2)}
+.pcard.sel{border-color:var(--gold)}
+.pcard .av{aspect-ratio:4/5;max-width:100%;border-bottom:1px solid var(--line);cursor:pointer;position:relative;background:var(--bg3)}
+.ini{width:100%;height:100%;display:grid;place-items:center;align-content:center;gap:6px;background:var(--bg3)}
+.ini span{font-family:var(--f-display);font-size:3rem;line-height:1;color:#4a4842}
+.ini small{font-family:var(--f-mono);font-size:.56rem;letter-spacing:.2em;color:#5d5a53}
+.pcard .avail{position:absolute;top:8px;right:8px;display:flex;align-items:center;gap:5px;background:rgba(13,13,15,.85);border:1px solid var(--line2);padding:2px 8px;font-size:.66rem;font-family:var(--f-mono)}
+.pcard .avail i{width:7px;height:7px;border-radius:50%;background:var(--ok)}
+.pcard .avail.no i{background:#6d6a63}
+.pcard .tipo{position:absolute;left:8px;bottom:8px;background:var(--gold);color:#0d0d0f;padding:2px 8px;font-family:var(--f-mono);font-size:.58rem;font-weight:500;text-transform:uppercase;letter-spacing:.08em}
+.pcard .pb{padding:12px;display:grid;gap:6px;align-content:start}
+.pcard .pn{display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+.pcard .pn b{font-size:1rem;line-height:1.15}
+.pcard .pn small{font-family:var(--f-mono);font-size:.62rem;color:var(--mute);white-space:nowrap}
+.pcard .facts{font-size:.82rem;color:var(--mid);font-variant-numeric:tabular-nums}
+.pcard .ptags{display:flex;flex-wrap:wrap;gap:4px}
+.pcard .ptags span{font-size:.66rem;border:1px solid var(--line2);padding:1px 7px;color:var(--mute)}
+.pcard .pact{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:6px}
+.pcard .pact button{border:1px solid var(--line2);background:transparent;padding:8px 4px;font-weight:600;font-size:.78rem;cursor:pointer;color:var(--fg)}
+.pcard .pact button:hover{border-color:var(--fg)}
+.pcard .pact .add{background:var(--fg);color:#0d0d0f;border-color:var(--fg)}
+.pcard.sel .pact .add{background:var(--gold);border-color:var(--gold)}
+.new-badge{position:absolute;top:8px;left:8px;z-index:1;background:var(--gold);color:#0d0d0f;padding:1px 7px;font-size:.64rem;font-weight:700}
+.empty{border:1px dashed var(--line2);padding:40px 20px;text-align:center;display:grid;gap:12px;justify-items:center}
+.more{display:flex;justify-content:center;margin-top:22px}
+.filter-toggle{display:none}
+@media (max-width:960px){.search-layout{grid-template-columns:1fr}.filters{position:static;max-height:none}.filters:not(.open){display:none}.filter-toggle{display:inline-flex}}
+
+/* casting online */
+.steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--line2);margin-bottom:72px}
+.step{padding:28px 28px 32px;border-left:1px solid var(--line);border-bottom:1px solid var(--line)}
+.step:first-child{border-left:0;padding-left:0}
+.step .n{font-family:var(--f-display);font-size:2.6rem;line-height:1;color:var(--gold)}
+.step h3{font-size:1.15rem;margin-top:14px}
+.step p{margin-top:6px;color:var(--mute)}
+@media (max-width:900px){.steps{grid-template-columns:1fr 1fr}.step{padding-left:0;border-left:0}}
+@media (max-width:520px){.steps{grid-template-columns:1fr}}
+.calls-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:16px;margin-bottom:22px}
+.calls-head h3{font-family:var(--f-display);font-weight:400;font-size:clamp(2rem,3.6vw,2.8rem);text-transform:uppercase}
+.tickets{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.ticket{display:grid;grid-template-columns:120px minmax(0,1fr);background:var(--bg2);border:1px solid var(--line)}
+.stub{border-right:1px dashed var(--line2);padding:18px 12px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;text-align:center}
+.stub span{font-family:var(--f-mono);font-size:.6rem;letter-spacing:.18em;color:var(--gold)}
+.stub b{font-family:var(--f-display);font-weight:400;font-size:2rem;line-height:1;text-transform:uppercase}
+.stub small{font-family:var(--f-mono);font-size:.6rem;color:var(--mute)}
+.t-body{padding:20px 22px;display:grid;gap:10px;align-content:start;min-width:0}
+.t-tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{font-family:var(--f-mono);font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;padding:2px 8px;border:1px solid var(--line2);color:var(--mid)}
+.tag.cat{border-color:var(--fg);color:var(--fg)}
+.tag.urg{border-color:var(--gold);color:var(--gold)}
+.tag.ex{border-style:dashed;color:var(--mute)}
+.t-body .mono{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase}
+.t-body h4{font-size:1.3rem;line-height:1.2}
+.t-body p{font-size:.94rem;color:var(--mute)}
+.req{display:flex;flex-wrap:wrap;gap:6px}
+.req span{font-size:.72rem;border:1px solid var(--line2);padding:1px 8px;color:var(--mid)}
+.t-meta{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:10px;margin-top:6px;font-family:var(--f-mono);font-size:.74rem;color:var(--mid)}
+.t-meta .acts{display:flex;gap:8px;flex-wrap:wrap}
+.t-meta .btn{font-family:var(--f-body)}
+@media (max-width:900px){.tickets{grid-template-columns:1fr}}
+@media (max-width:460px){.ticket{grid-template-columns:86px minmax(0,1fr)}.stub b{font-size:1.5rem}}
+
+/* perfil */
+.profile{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:32px;align-items:start}
+.ficha-prev{position:sticky;top:100px;border:1px solid var(--line2);background:var(--bg)}
+.fp-head{display:flex;justify-content:space-between;padding:12px 16px;border-bottom:1px solid var(--line);font-family:var(--f-mono);font-size:.68rem;letter-spacing:.18em;color:var(--gold)}
+.fp-photo{aspect-ratio:4/5;max-width:100%;border-bottom:1px solid var(--line);background:var(--bg3);overflow:hidden}
+.fp-photo img{width:100%;height:100%;object-fit:cover;display:block}
+.fp-photo .ini span{font-size:5rem}
+.fp-body{padding:18px 16px 20px;display:grid;gap:10px}
+.fp-name{font-family:var(--f-display);font-size:2.2rem;line-height:1;text-transform:uppercase}
+.fp-type{font-family:var(--f-mono);font-size:.72rem;letter-spacing:.14em;color:var(--mute);text-transform:uppercase}
+.fp-stats{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.fp-stats div{padding:10px 8px;border-left:1px solid var(--line)}
+.fp-stats div:first-child{border-left:0;padding-left:0}
+.fp-stats small{display:block;font-family:var(--f-mono);font-size:.56rem;letter-spacing:.14em;color:var(--mute)}
+.fp-stats strong{font-size:.98rem;font-variant-numeric:tabular-nums}
+.fp-skills{display:flex;flex-wrap:wrap;gap:6px;min-height:22px}
+.fp-skills span{font-size:.72rem;border:1px solid var(--gold);color:var(--gold);padding:1px 8px}
+@media (max-width:900px){.profile{grid-template-columns:1fr}.ficha-prev{position:static;max-width:360px}}
+
+/* proyectos */
+.tabs{display:flex;flex-wrap:wrap;gap:0;margin-bottom:28px;border-bottom:1px solid var(--line)}
+.tab{background:none;border:0;border-bottom:2px solid transparent;padding:12px 18px 12px 0;margin-right:18px;color:var(--mute);cursor:pointer;font-family:var(--f-mono);font-size:.78rem;letter-spacing:.12em;text-transform:uppercase}
+.tab[aria-selected="true"]{color:var(--fg);border-bottom-color:var(--gold)}
+.credits{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:0 32px}
+.cr{padding:14px 0;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:3px;min-width:0}
+.cr b{font-weight:500;font-size:1.02rem;overflow-wrap:anywhere}
+.cr span{font-family:var(--f-mono);font-size:.6rem;letter-spacing:.16em;color:var(--mute);text-transform:uppercase;order:2}
+
+/* agencia */
+.agency{display:grid;grid-template-columns:minmax(0,.7fr) minmax(0,1.3fr);gap:40px;align-items:start}
+.ag-tabs{display:grid;border-top:1px solid var(--line)}
+.ag-tabs button{background:none;border:0;border-bottom:1px solid var(--line);padding:16px 0;text-align:left;font-size:1.02rem;color:var(--mute);cursor:pointer;display:flex;justify-content:space-between}
+.ag-tabs button::after{content:"→";color:transparent}
+.ag-tabs button:hover{color:var(--fg)}
+.ag-tabs button[aria-selected="true"]{color:var(--fg)}
+.ag-tabs button[aria-selected="true"]::after{color:var(--gold)}
+.ag-panel h3{font-family:var(--f-display);font-weight:400;font-size:clamp(2rem,4vw,3rem);text-transform:uppercase;line-height:1;margin-bottom:18px}
+.ag-panel p{max-width:62ch;margin-bottom:12px;color:var(--mid);line-height:1.65}
+.ag-panel b{color:var(--fg)}
+.quote{border-left:2px solid var(--gold);padding:4px 0 4px 18px;font-size:1.25rem!important;color:var(--fg)!important;margin:20px 0!important}
+.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--line);margin-top:18px}
+.stat{padding:18px 16px 0 0}
+.stat b{display:block;font-family:var(--f-display);font-weight:400;font-size:2.6rem;line-height:1}
+.stat span{font-size:.86rem;color:var(--mute)}
+.pillars{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:0 24px;margin-top:16px;border-top:1px solid var(--line)}
+.pillar{padding:18px 0;border-bottom:1px solid var(--line)}
+.pillar h4{font-family:var(--f-mono);font-weight:500;font-size:.74rem;letter-spacing:.16em;color:var(--gold);text-transform:uppercase;margin-bottom:8px}
+.pillar p{font-size:.94rem;margin:0}
+.brands{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.brands span{border:1px solid var(--line2);padding:6px 12px;font-size:.88rem;color:var(--mid)}
+.team{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:24px;margin-top:12px}
+.member{border-top:2px solid var(--gold);padding-top:16px;display:grid;gap:6px;min-width:0}
+.member b{font-size:1.25rem}
+.member .role{font-family:var(--f-mono);font-size:.66rem;letter-spacing:.14em;color:var(--mute);text-transform:uppercase;order:2}
+.member span{color:var(--mid);font-size:.92rem;overflow-wrap:anywhere;order:3}
+.privacy{max-height:340px;overflow:auto;padding-right:8px}
+.privacy h4{font-size:1rem;margin:16px 0 6px}
+.clients,.client{display:none}
+@media (max-width:860px){.agency{grid-template-columns:1fr}.stats{grid-template-columns:1fr}}
+
+/* ubicación */
+.location{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:32px;align-items:stretch}
+.loc-list{display:grid;gap:22px;align-content:start}
+.loc-row{display:grid;grid-template-columns:44px 1fr;gap:14px}
+.loc-row .ico{width:44px;height:44px;border:1px solid var(--line2);display:grid;place-items:center;color:var(--gold)}
+.loc-row b{display:block}
+.loc-row span{color:var(--mid)}
+.map{position:relative;border:1px solid var(--line);min-height:360px;overflow:hidden;background:#111114}
+.map canvas{position:absolute;inset:0;width:100%;height:100%}
+.pin{position:absolute;left:54%;top:50%;transform:translate(-50%,-100%);display:grid;justify-items:center}
+.pin .bubble{background:var(--gold);color:#0d0d0f;padding:8px 14px;font-weight:700;white-space:nowrap}
+.pin .stick{width:1px;height:22px;background:var(--gold)}
+.pin .dot{width:12px;height:12px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 6px rgba(242,181,68,.2)}
+@media (max-width:860px){.location{grid-template-columns:1fr}}
+
+/* contacto */
+.contact{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:32px;align-items:start}
+.contact>div>p{color:var(--mid)}
+.phones{display:grid;margin-top:20px;border-top:1px solid var(--line)}
+.phone{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:18px 0;border-bottom:1px solid var(--line)}
+.phone span{font-family:var(--f-display);font-size:1.9rem;line-height:1;user-select:all;min-width:0;overflow-wrap:anywhere}
+.phone span.small{font-family:var(--f-body);font-size:1.05rem}
+.copy{border:1px solid var(--line2);background:transparent;padding:6px 12px;font-size:.78rem;cursor:pointer;color:var(--mid);flex-shrink:0}
+.copy:hover{border-color:var(--gold);color:var(--gold)}
+.summary{margin-top:20px;border:1px dashed var(--gold);padding:16px}
+.summary pre{white-space:pre-wrap;font-family:var(--f-mono);font-size:.8rem;margin:10px 0 14px;color:var(--mid)}
+@media (max-width:860px){.contact{grid-template-columns:1fr}}
+
+/* pie */
+footer{background:#08080a;padding-block:72px 32px;border-top:1px solid var(--line)}
+.foot-big{font-family:var(--f-display);font-size:clamp(3.4rem,10vw,7.5rem);line-height:.9;text-transform:uppercase;margin-bottom:56px}
+.foot-big span{color:var(--gold)}
+.foot-grid{display:grid;grid-template-columns:1.2fr 1fr 1fr 1fr;gap:36px}
+.foot-grid h5{font-family:var(--f-mono);font-weight:500;font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;margin:0 0 16px;color:var(--gold)}
+.foot-grid ul{list-style:none;margin:0;padding:0;display:grid;gap:9px}
+.foot-grid ul a{text-decoration:none;color:var(--mid)}
+.foot-grid ul a:hover{color:var(--fg)}
+.foot-grid ul a::before{content:"» ";color:var(--mute)}
+.foot-grid p{color:var(--mid)}
+.foot-logo{width:150px;aspect-ratio:410/307;max-width:100%;background:var(--fg);-webkit-mask:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZoAAAEzCAYAAAAIFcVFAAA14klEQVR42u2de7yd053/3+fk5NZEkiaVNJqYaKKUlF+qNBSV4RdGfugFZcrEYHTUMKhbi1KGlKF1nTEYWoZioihFmVaZ0JAog8aISUokSJPI5SQ5Off5Y639O8/Z2Ze19l7PZe/9eb9ez2ufs/fzrMt3rWd913ddvqsJUS3TgFFAF9ACNANNwCBgeJlnN0b+7sn7rRf4qMzzE218UZo80j7Axttrr+7I/wBLImkplM5tbXzNkc8BkTR02M9uK48OG1YT8AHwtqqPEPVPk0RQNctsgy/86AIGSgxC1D/NEkHVbCMRVMRKiUAIKRrhxiiJoCI2SQRCSNEIESebJQIhpGiEiJN2iUCIxqBFIqiavYGvAZOA7YGd0HBaPh8BrwH/BSwAXqJvRZsQQogKGAN8FbgJeJe+5cONdK0DzsAs/xZCCBEz+wBzG0TBPA7soiIXQoh02B54vU4VzLPABBWxECIfbdhMhyuA79VRfv4euEHF6s0BGO8KE4HtgCHAFmAtsMFebwAv13Aeh2DmMfcFvgB8BvgkMAyzIKQLs9R9BWYO72ngKWC9qocQ1TO9DqyYHjQH48Ms4KcYbxK+sn4HuKZG5H0QZgi1s8r6dRswU9VGiOo4soaVzDIVnxP7AE8Glv2bwD9nLJ/DgUswi0BC17U24AK0SlaIijmhBpXMZsxyblGcfe1wUNxl8d0M5PWiBOvejWjIX4iKuKbGFM10FVlRtsPMqSRZHhutdZxGXhekUP/exsxvCSE8aAFW14iSuV/FVZSbUi6b2xPM62kZqIsXq8oJ4ccxNaJotlNRbcVIYHFGyqcVs5ItTq7LUH2cp+onhB/LyLaSuU1FtBU7ZLSsDo8pv09mMK+taN5GCGdOz7ii2V5F1I9dM15eJwXO77MZz+9IVUkhyjM0wy/x+yqefoyiNoY6Q+1Deb4G8rpR1VIINxZn9CW+XEXTj5XUzirB8VXm9cEaymubqqYQ5bkloy+wHGX28SS1tRy9mp7+xdTePi8tEBCiDLMz+vIKwwU12PDmvGr7Mr5G89oLXKmqKkRxDsrgS9uhYgFgd2pnv1Oh62DP/D5Xw3ntBaaqygpRmIkZfGF1GqbhtRpveNd45HVWjee1F/iNqqwQxcnaC/uMioSvJSDn7gTimO2Y31fqQNH0YpagCyFqQNE8oCKJxZpZCVxfoDGcCpwdU2O/1iGvh8QQ75sY7857Y5aGAzRjDss7mfj8w92nqitEbSianzZ4eWwfWJ6t1kJyYTzwSOD4yzlFnRd4+Gpvx7wOJx5/cUIIKZrMc3tAWT4KDKwgDQdhjmeIe/lvSJc6J1HZbv2pwGMB03GGmhQhsq9o7mrw8lgXSI43VZmOCcDyQGkZXCSOcwOFf24AuYdSNvPVpAixNT0ZUzRzG7gspgSS4f0Zqx+nFgm7NUDYlwXM6/0aPhNCiqbe+SZhlhUPDZimQ2NSfCF87YX2NzaQMHuXdlazkh7NEoEQJQnhbv80wvrgehz4oMowvlLgu1kB0nZ+YPl3lrC+fJWzEEIWTSb5sErZrY4pXZcGKNd8Z5u3kd0hqo1VpusJNSuyaITIKuOqfP6emNL14wBhTMj7f1qV4cW5aOTJKp/fTVVZikaIeuWmmMJdHyCM0Xn/j60yvJtjlOMtVT4/VlVRikaILBJiAv/tGNO3psrntwncHrweY14XVPl8i6qzFI0QWWRQxtO3ocrn8zeOdme4PRmh6ihFI8LSmbH0fNSg5ZD14xEGVPl8/uT9pirD+1gDl4WQohGiIkIsSR4eY/pGBs5ftRbSuBjz+klVRykaIURhvphhRZNvqb5bZXhfiDGv01SVpGhEWJokgsxQ7XDS7JjStUuAMPI3fb6R0bwCHFPl8xtVlYXoTwfZ2rB5awOXxXyyuYnxgQDpyl8McDDZ3bApx5qyaISoW0KcLnpx4DS1AEcFsGbyF528CHRVGe5FMZTBOQHCeEpVWYj+dMqiyQwHBpLh+IBpui9Aeop5LFhGto5P3iWQ/D+vZkUWjRBZ5Y1A4YQaujkP+EaAcF4p8v26AGG/GFD+zwUK5/eqykL0J2sHn93b4OXxaiA5LsKcb1MplxH/8cbHBIyjGitucMB0LFaTIoQUTdb5VkBZrgS+6hn/CODZgGmYV2aUI2TduaACeR8XOA2HqEkRQoqmEcvkUQfrZjRhXPfnXweWiffewPFtBG50yO/hwGuB4+5W1U0f7dfIbqOWJX4G/GWDl8mdwAkxhNsBPI1ZFfXfwBjgMMxBXSNjim9wmXvGYc7hiYMuzHzJBxgXOu2YxQNxnYD5feByNSlCZN+iuU9FwoQMlksl12mO+b2/TvIrhJCiqSmuq/FGt9Ujr2PrQMkcrSorhBRNLbKkhhver3nm9fIazutvVFWFqC1Fc7+K5P9zMLXZ8Fa6t+XdGsxrDzq/JlNow6YQfvwKs9y5lviIyr1IT6b2zoI5guqPPBBCFo0smtSZU0M9/GpdwuxUQ3k9SVVTCCmaeuKRGmh49wyU131qIK9nqUoKUbuKRosBivNYhhve/QLn9YAM5/UMVUUhpGjqmbsyVl5LMPt+4mAatb+aTgghRVOTXJmRsno0gbxOwDiqzEJ+5f5fiDpRNPJ15sZewPKUyqibeFzkFGMI8ATQllJ+XwFGqcoJIUXTqFySQvkMTSmvM4E3E8zrKuBIVTEh6k/R/EhF4k2TldvLMZbLU9aKygInxTyc9jZwvKqVEFI0ojAHYI7DXhGgLNqBa8ju3MRBwIOYTZ7V5vUdW/cmqwoJIUUj3BkNXAgs9OzN/wiYXmN53cNaIXdS3kfcRsxZNDdi3PyMVlWpL/NeZFPRZIkfA2erWGJjFOYcmoFAp210twDrJRpRD7RIBEKkzjp7CVGXyKmmEEIkxzWYDb5SNEKIsozFbI5sxc1tfQdmIr+b2nO7n/VrA3AVZm9PVpmOWZX3HWCiXh+RBbQYILuMAh5X457Z63mMm5wske+i6A29RkKKZutrrooEgNlqyGvmmpOB+nImhT0nLNerJKRotr4eVJHwTTXeNXfdmlJdORB4q0S6Vut1ElI0W18PNXh5jFWjXbPX6QnWk2bgNw5pWtdoL5AWAwjVk/I8qipQs9yQUDznYhZ6zHC4t+G2lUjRCBcGNHDe9yI7/sREZcR58uYk4HXgaolZikaonlTKhSp+KZoi3AT8EZjq+VxPoxWAPAMIKZrSzFDx1zyh960cDdwNDKrw+YFqQIQQUbaRCIRlZ8w+nfurUDIAg6VoRBboylh6RjRwWbSpOjY8AzFLpd8E9pE4pGhULvHQ2cBlMVTVsaE5CeNF+28kisrRHI1wYWQD572TBhxTF4wHngB2lyhk0QhZNHEjJdN4XAe8H6OS6W00gcqiES5slAhEA3AKcLPaRSmaRiFrJ59+FpgJrALWYBYr/InsLVoIjSZ+G4NpGMexn5YoGqNBE4YelY0QibR1c4GvJ5yWLhpsSFYWjRCiEdkZs1xZJIAWA8jSFKIRO9V3p5iWlVI0QghR/523HolEikYIIUIyQCKQohFCiDjJHzrrlUikaIQQIiSDJAIpGiGESNKi0RyNFI0QQsSqaDR0JkUjhBBq6yR8IYSoHfKHyrZkyLqSohFCiAZQPEKaVWTkxdxs/+6wn0vtZ7f9vSfyd2/k/krr35oyv5fbGzGMrTfqRTtXTXl/N+d9PwHjqkQIIUUjYmY18GVgUYPlezbwExW/ENWhoTPhas0sasB8v6airxu0ykyKRqieZJKxKnopHqEGRCTDBjVGQggpGhEnHQ2a73dV9EJI0dQrbWpwM0G3qmLdlqWWN0vRCCFEULry/t8gkUjRiGyhuQpRb4qmSyKRohFSNEKEJH+obJREIkUjsv2SClHrbV2TRCJFI2TRCBFnW7dQIpGiEbJohIiT26yy2SRRSNEIIUQcLAP2xPjwe17ikKJpRIZmLD3DG7QcBqgq1j0vA/sC5ydouW9pNCFL0QghBFwNjACelCikaIQQIi42AX8BHAysjDGehpvzlKIRLmgpqGgkngI+iRlOi8MdVMOt4pSiEUKIwlwNjAR+LotGikYIIeKiE/g6MAvYKItGikbEh4bORKPzOLANMEeKRopGCCHi5HvAOOBXVYShoTMhCjCwQfM9REVfN4Q8FuBPwCHAXsBLFTy/XopGCCHqjzisiAXAF4HjgI88nlsnRSOEyPGORCAcuAcYA/yj4/2DpGiEEDnWA6slhponKQviPODTwAtl7muRohFC5PdWRW1zbYJx/RH4EvCtEvdsVJGILNCbsWteA5fFDhksD11+18iUOyoN/z7JohGifA/1domhZplDuqu8volZnbYs8t1KFYuQRaMeWLHhDlkHtXXNz1gdutama3GjvTwtaj+EYyPb6HwaeB0YK1HUBH8ApmcsTd8BngV2V/EIWTRbXzqjwzAQeESWQuavm1VVs4XmaIRwpxM4AtgPeE/iyBz/BvwZcJpEkS00dCaEP/OA7YEDMEtZp2FOZ+wANluFNABYDnQDXfa3dnt12e83l4mnCxhmw5pow90IXEr2jvvOcS/wqk335gKWepQhtrPbVOAT+oYpe4uE0Wpl9DzwC1VLIfzQ0JkoxTqyO2wla0JshYbOhKgtLiLdfSHluElFJKRohKhdpgCX10A6H1JRCSkaIWqTW2sknV/BLJoQQopGODNAIkidvYEZNZTeh1VkQopGiNrithpM83kqNiGyS9ZWEj2tIkmVmdTu5skxKj4hi0aI7FPLO93/UsUnpGiEyD5Tajjtf6HiE1I0Qog4GSoRCCkaIbLP72s47b9U8QkpGiGyzz/UcNrvVvEJKRrhwiiJIFUeojZdu3wJnSYp6POSKrJFb8bSsxDYU8WSKsMx3oprhR600VdYdEyAcKFbIkidOxzvW40ZqRgOtNHndn8AsBbYzjGMT2CONui04WDDct0b02w7JwtUdEJk16LJ0vWCiiRVJjuW05EB6pZLp+IQx/QsVNEJIUXjes1TkaTKmw5ltCpg3XLhMcew9lHxCSFF43I9qyJJjcMcy2hmwopmqGNYq1WEQkjRuFzPqEhSo9OhfO7yCK+9TFg9HmFd6lh/vqliFEKKptz1GxVJKjwc0AJxVTS+4XXEkEZRZ2gfTXYVTZZYpCJJnP1xOzxsf89wV5T5fYtneH/reN89KlIhskVPxiwanQOfPIsdyuXVCsJdWibMtgrCfN+xHu2sYpVFI4TIBtcCOzrc91cZSe9fO973MxWtELJoil03qkgSY4xjmbxSYfhxWDRg9lq5pPtYFbEQUjRSNOnya8cyOShjisZVQfaoiBsPDZ0JkR1mAn/ucN9/Av+RsbSvAW5zuK8JuEpFLYQsmvzrehVJIix3LI/PVxFHXBZNjjbHPGyn4pZFI4RIlmOBTznc9yrZPgjth473XaciFyJdsrZhU4dXZafMR1QZzzridxnjatVsr2KXRSNEjo9JBLFyreN9/whsqIH8nOp4nxaZCCGLRi5oEmCcYxmsCxTfBpJxgvmmY772UBUQQoqm0h3owo1nHcvg5BpTNPs75ustVQEhkmfbDCqa5SqWWDjWUf7vBowzKUUD8KBj/r6tqiBEshyRQUXTqWJJ1XLdO2CcrQkqmjEeeWxSdahftBggexyUwTS1AGNVNEFxnQh/AvhdjeZxDXC+4723qUoIkRyuY/ZJX3uqaIIx0kPuwwLHnaRF4xpn7pqqqiFEMrgeJCXvALXLa44yj6OXv6ZMnN0xxDnFMb9tqhpCxM/YjCqZXnT4WSj295B5HKShaLBK0yXP16mKCBEvl2RY0eg43jC86yjrC1NSNHF6V3a11geqmgiRfiOU1nWkiqgqvkWymzOzpmhOccz/o6oqQsSDzwRxWtcLKqaq6HSU82ExpmE16Z4Xs8RRBvuquggRnltqQNH0AjuoqCriOkf5Lo45HatJd4h0OtokLEQqTK0RJdMLzFVxebMj6WzOzKKiAXjMURbHqeoIEY7na0jR9AK7qsi8eNxRrk8mkJYsKJpJjvLoUNURIgx31piS6QU2Y7wFiPLsQ7ZW9S3JSDrucJTJpapCQlTHZZh9C701eL2m4nNioaM85zSYomnyqGtylSVEhVxXowpGysYd1+W8KxNMU1YUDcA5jvK5V1VJCD+G4+6CpBauFcBOKtataMYsFXaR4SENqmjAnEfjIqMhqlJCuHF2HSmY/Os8FW8/HiE7CwCyrGh2d5TTM6pSQhRnB+CmOlYw+Zv9dIgVbO8hs/ENrmjAfUHMGFUtIfrYE7gCcwRyb4Ner2BOkNy5AcvfdWj0ohTSlkVF0+Ior+fUtIhG5duYfTDzMLu6e3VtdW20je8DGGeRB2Ncx9cjrsOjG1JKXxYVDcCZjnKboSZHNCJSJJVd7zR4fZieUvqysGGzGBsc0vaumpzaQ+vTq6dVIqiIzgbO+73A/JTiHpRhuZzhcI+8BUjRNCQ9EkHdNXjV8L7DPcenmL4sO6v8CfCHMves0asjRdOIdEsEFVGvh1t9o8zv3065c1LuSO7zU5bfoWV+v0WvjmhEFhDfPEZbmSuJ5cqlLt/wOu21FnixjuvEEcDSAvm/LyPpu6BI+VyTkfTNxmwEjqZtiU23qEGaJAIhYmEw5kTSccA2mOMV/pCh9E0DTsd4qmjG7GX5ZYbSNwXYP9KhuRsNUwshhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYSomB/R53PvNYlDCCFESK5gayeiOnJACCFEEPaluEfxORJP/Og8GiFEvfN0id+2kXiEEEJUwz0lrJmFEo8QQohqmFVCyVwh8QghhKiWtQUUTDewu0QjhBCiWu4ooGRelFiEEEKEYK8CSuYaiUUIIUQIxgIrIgrmBWC6xCKEECIUr1oF0wNcKXEIIYQIyY1WySwCjpQ4hBBChGYHYAYwWKIQQgghhBBCCCGEEELUAE32cyJmF+0I+zkKWIcZ62y29+U+cys6eoEuYIMNYzDQEQl7NH5uuIcBmwqkbbC9WiJxdtq/2+1n9Jnc/8OBjY5xt9hwx0T+bgeGApvtd+ttGgcDH3nka4SV1yBgoP27Cdhi5bUNsKpMGEPs/VGGAuPyyiaX/1wZbQEG2PS3Y3ZFd9nvRtiyG2HLer39LWlarFy6gE/aPKyy3w2zMhoUyVuuLMbYZ3ptOefqyUqb1yTSjZVzMzAF+MC+S+ttmWFlPNCmf22kXrXb53K71aMMiNT/EfbKlU8L0GqfbbffTQTeK/NuNdn3a0Ck/HP5aLHf9UTqfpeVfVvkncjVu4E2DSNtura1YW9KqR1rsfLeJpLOIVb23bZ+jLD5GmLTPgr4mH32nYTSOSTSznR6tiNJpG1f4Hhblz9my3W0LfMcrcBSYAlmA+xzwHyXCA6k7zCg3sDXK46ZvNdWiM2RhqOS+Hry/s9feTLbfr85hrzGJaO59mXPd6MRR1p6bOfgFSurkJOqp6Yg97eBB4FjCeepfASwIEP1p9cq11IsCfQ+uVztwGLgeeBmK/tQTAXesu3D2oDyOzeBhnz/Am3s5JSVy7aYw+BeLiKXZcCHVmGXkt8q204dCWxXrt0YC5xtNVY1hfYYcIitFD40YzZWPVxl/CuAk6xWLsRIYB/gNIz3Vt/w2/Ia/HYrs9aIheVzrXJo2EYBewN3pdCIrQOOClSxB9re3FkVpqWDwr6rXJ+/D9g+QD5GAtOAi4H3A+Sjx+aju8LGvdehDu1u38snKwi729bvnIVTSaf0Pts7DsGOwInA8irq9Z22LoxOqFG/vEAazkpJwQzGLAVfm1cHn7Q6YMeIRZ5jPHCofW5Fmbq9FLMCsCyVVMZFdignBAdW+ML5rp0f5dk7XemRx4HAwdY6KBWm7yl/X/Ps0Y8sMIwy2Vosd3s0GmuBPQNW9pG2t+Sal8W2shdiOGZznmtYVwfMx+fLvHj514a8oYhyQ0K7AA84KC4fzvF8r3YpUcenUtivWLHr5ICy38921Hw7Tgem0LgXSufTKaRjZzvkFR3ZWWTrsSs72U5WKTlPdNV4Pr2WNsIfonaiZwU6scJ4ZnhW0kqYXsI87awgvKcd0/uGo7K910MGFwQs4309lWY5JnjIZmPAOnuwR8eo0vmjEWUUji9PeMjeZQjVR+HeGLAOne7ZTsxOoXHfs0R6piSYjv1tG5Y/ArRTheEdaq2XQvpgV9dAnvIovDtiEoxPLzGJeFZWGc+cAmFuriCcbwUalotyq4ccrgpYxq4dmrc9wrzTMczNAfPxU49hqDg6YL5M9ijvIY5hTnSw4HPX44HkPizgEGNcPFYiPRcnlIa9IsP+0WH+w6oMdyaF59T3cg3gOo/C2y9lRfN6lfFscIzn/QB5uiyARXOYx3CTDw96yPz4QGXsOsfymme4Sx3DfTVQPk5KsLE7iK3neOJ8v4Z4hLmHR7inBZK96/ubxGrEfIYGfkcrYSJmYj83VB+d7gjBqQXy5TwXeotHhdktZUUzt8p4VuM+iRuCR6vsVR8Vk2KchN/cWAjWxaQQpnvk49QA+Tg0YbnNDtCAuqa3KSbrrjfQ8OUa3OcZk+Y4Kp8DC8XDReK9LGAcz1dq0dzkUVl2jUlAPitaqmFZDENRpWiibyIuTotmRQVhX+8h90sCyKLNMa55FYT9coJDaLumMHxzd5VhuqZ3hGe4O3mEfW8AObyawlCpKy4rW+fGGP+xFN9WEHJxz4i8sHeM/thcphI2Cr0pxJcbG92SsXw963HvVzIu+995DG8cWGN1iMA90pAsw33z5hdq8P31GSHYw+G+WfRtAA7NnhRf5bgiYDwb7ChYjvGuiqabxiGNivprzDLD4RU82xxjun7uce//wSyXzCo+PcVjqoyrJ4X8vQ38ewbl3gb81vHeHal+jrcno/XPdSPoEOJZDTcW+PMSv4f25DDHfnbkj9SUarB83JHUuvWTVkX9foXPNcecrzc87v1ShmX/W497v1yjveob7Oe4jL1TPkOdh9apReOjPP4+hvi/QOmlyxNisGRfxLiMGuHaYHXSOLhab6EbxacwS5V9GRDzC+izGuUzddIZmJxQHYqjQb8a43MsS7zlaRnXouxLMQOz9Pq3mOXE5fhcDKMDkyi9B2pWDPm+vJC11FyD5mgcpNkjujVGi6bSfLV63Dsk47LvCSzTLNah84l3ri/uOjSsDi2a70esmnscn/lO4DTknHgW429iyPcvrWUz2vXl0hxNdol76OzjHveuzrismhKKp5E6Zi74TG5vrDPZjwEOwKyGW4b7HrCTCOvIdgvGTVAxpgCnxJD/p/LbkFAWTa2/ZLWW/rgbz0963PtBxpV8U0J1oJFWabrg02Cuq7O8/639fMR+PudRVw8PmA6Xyf5/Ifz2lL/D7KVyUjTLPQLuSrlghydQIL4yiZNBjvdVuut4rMe9j1aZF9e9SXHPQVRbth9QvzTHHP5TCaWvLSF5nWM/L7WffwBecnz2poDpeBm3TebPB1Zw7UlXINHHbjWU1vEe966sk/L5fQ2k8QmyvZw8yrYe9/68jt7zSRhHtT/L+951U/nYgBbGJuBdh/tGWuvrpriEIkWTDBcAPwgYXpxDZ+Nxn5y9K+Ny9zl75paM52UnzHkyH6uROu+6im8p1TvFbcpQvk+wn9fkfX8j7sOr5wdKyx89O1CnWWvk9KwqGo1Pl+Y43M8gSbuD4LND/rsZl/vXPe79VcbzMtN+rqiROu+6v+qcOnvXjwbeLNDAd3lYNd8MmJ6nPdvoQZi9WcuAMwi0P0sWTTK96l1twdWCRfPXjvf9O2G8WcdtSYZWSGlxkv0cUyP13mW3/0LgoTp71z8L3Fbk9x97tMsHB0rTg5i5Wt82YyLG7+EizKGCVXWUQykaKaziPGA/B9ZAWidT2mVFjmW255Z1K9JlUcPtZH+O4ErMUcxQ/Z6TJHB1//+1Omt/zsWsXiymaBZghrNcODFQmtYB91fx/Gg7crEeM/y3bZoFNBhRiDuBL9q/Q3paiMOiabGNbjk24XfsaxqMxpynVI6HiWfTWkiOof8QZcj9bXEMeY8E/sHhvr8E3qujd70ZMz/zEKX3Bd3gGN5XA6btJtuZqqa8B2KWLf8J44lisK9wQjAQEWWK7dWcEFMDEQd3YDaZlWKlHRpYk/G83Ef5Iab/CPwyx8GZbL16Kev1aC5m1VUpji6Qr1pnJmabxYNl7nP1EjAQc6ZSCP6E8VTwckDLbQtwhauFU2r37ic8In7evgCbgW0wE1899I3r5Q7T6olo1V7gw7yeVRPGj9cAz177kioF5+o77PMYr8sf0uehtNXmd4jN+3YYZ3b5DV1rwErtuqHSZVx1MOZogC86NMyHEt4H3ijH+1wO9xqJ8f01tcQ9bcD3HC2eOPKRs6S6rHXYHLF4B9h6Mxn4lK1P+XyUgmXsUuZjrJIp1Vn5b/t76CXxrh3dODdmX20/yw3DrsI4rZ3qEOaVuA1lu/AH4GTMGUafCxTm9+x1VjXv04X4ncWd5lVto/FKAmn8acBKfZFjnEvKNMrnYtbZlwpjEcZBYFy4no54R5lG/poyz7fZMojrkL5xCdX1wwKmOcTBZztgxu47KX0y7Ukx1qFXSfbgwnxyp7n+xvH+MxzTu47qfQnmM9l2xkLXyxcwCwi8LRqfYbXVtsfZbCtchzWtWgtU6mjPornA/80Rq2YPx/iTHE54zprIuXPKc/ncbK2DSdY6yMIE5bZ2CO/jkR7sx+33pXpUt2EWMfyO8GdWVMrhVpmMtLLO5WlX20Mr1qv9CWbOYEnM6fMp759h9sNssmXSZfPUbq3Q0fbar8A7msaekUds2tbYuj7avgO7AH9Wwnr5ub1epr65yH66bni8AbOiy8VCn41xExOKJZgVbf8KfCNguHsD/2M7FP/m8+BlHtpsakwF6Br/VQlZNAscw9sLeDLv2dtSsGgquZI+HmIN8VoAVySUj/Ex9KpnFHh+txTer0quWxOsQ2laNIPpPw3gykLHNM+PebhvbQxl/12fXpiP99U20qVaX2uuY7euexhewuzi/qfId5tTks0s4CA7jvpfDve3kM1Ngf+F2QT4ZczOaVffUd8jHg+1leLjl+8ZOzS1poI6GNqKP97WoaWOz/wN4faCZJncgpInPJ+7xvG+L+Lne9CH8zDzyU8EDvdKPLwLXO2hwXZP2aKp9uz0lx3j+bCCsOfaZ29OyaKJMp3yczK5a23GLJpCPeT3PeQQ9/6T7WKU65jI859P4f2qRu771LlF84QN+2sxyv+sBGR4sIeV5XrtFtqiGUC6JDVHU4mfqaPs57YpyCW/9zkfs2TWhVHAvRnqORaaFN3D4/mFGclHJVsB1gAX278/SiHN+U5WfTqWv6J67+pZZbgdufiAyjwcuA6nJ2GR/8paN1/2GC0ox69dFI3P5ObmlAu8WkXjupGpp8KwXyIdf3CF0vuQR0U6lvjm33wpNAn+Ae4TsDuTDW8GlVpWz9rPj6eQ5vyO5KpIB8qlMf5hnSqanE+yRyp8v3/kUXcnJZSn5zDDdZ8L0Dn7BA5zpFeR/mKADpIZOnvBMZ5KFep9uG/UcuFUx/QWcxE+wtMEjpOVjml4vITlvYH0FzpMSkCeq3DzIRZ66GZimWGjasIIwVuOadgYQ7yrqrTYHnZM+5UpKdNtMdsCKh0+a/O1WuqZuOVwT6RHGpelUogNJb73WTJ5VYbLrgt355ktwOUJWlyhuQGzrykr+Azp1JsngNGYSfpPAL/FzBPNtx2iJ61lMB940V4L7LXQXi9jVrse4Rjf/00pn6swS6x3wGwV8GUIZTwczMmARdOekEUzP2aLJjQnU/3SyKGU3mTns2kvTYsmx6spW2iTM2IhxmHRlDrX5wyPcGbVkUVzYcRKTmpj+ogM1Jkj8VsM0gtc2RKg11wPNNVYel3LptQijTbgbNyd/D2YYq/KpYwuBB5zDOs+jLPKRq5DPgwoY2WdaXu85biL2jnmoBw5Z6wzMBtvh1vrugnjOqjbjpQ05dWP6HfjgQkYZ5UucjkF92XRcTHXWmJPO5Y5lDmbKAsbNl0tmmqHQ16sMYvmeMf0vhawNxjXMnZXi+ZJh7B+45GXvQPnY8c6tmjKnZY5wyOsOFZQJW3R7GXDuy9QeN92TP/yDNWdyVaZuqT79eaMWzRJpaHW5qp6At739x7xZv3clgs97v23Bq9DIfP2DMZdkQu3UPvHinzHfl4SKLxHHe/7lFVyruTcGMXBEvociZZjQ6kK1E3jkIVhD5/9Fa5l4+Lx+ElHawHg04Q7kCmOhvx3uJ2pk8vLmXVWh44l3GFivrL/joecbq7htmIsxhvA69aSCsF7Vlm7cLZHuJMIP0Qc5Qe47etapVVn2eEljJPCkBZNu+N93/JI579mXI7fx90R6I/rrA79E2bTXRr8DrPSyoWTqN25mmNsp/C5wOG6DsP5dCSGxGjRgHEo/HuH+1pLKRqf81Pi2p/gOidSrSm+TcqVdyZmRcliV1M0sFyW4b55DPyGqEKlcbzjfR8Af+0R/+2B8tGVch06AePNYV4MYbtuMr3UI8xfpWBNbgkQ1wUY9/13BZaxqxPSgfRtFC3HJszw2awY652LR4QloSyaj6X8krVU+Xya81HNmLHOdzwaK9fGudvzBVrv0SNN2hr2GZp6DHO4lGtexgVI36AU69Bw+jzmxnEcgmvensGsRnJhD5LxgxaSvTEbGNcTzk1LFFfnlrM82olRhD0OoBKD5Jeh5miGxJSJnoRectdGMw6fbjdjVnMtjiG9Pgq0k74lm+XYATM+G4LeGGTf5ml1hXBpP4T0+CnwGfv3hzGE79ORu8Dj3lDnrCQ1P3a+lcUvYwp/juN9xzret9l2XmdiznOKg3Kd07eBBaUarA6PyOJaONARw4tQTcMduhd/CmbzZSdmbborcQ3T/LuHJXBRoDi7YirjX2B2bLtwOH4OOrNk1Z+KGbfvsb3L9THE4dNh+T3G95cLU+lzs58E1XYU97OyuCGm9P2nbZhdOMLx3dpg6+aZMaW53BEGc8s1nD6FsiWmTLgqsGotGtfnWwLmbUeMa5c22yPzUTQtMabXp+fzzwk2EpV4Pf4rj3sfqjJ9aXgo3oe+FVzNxOfZ2Xdo+e9wn+NNsg5VM5c7AzPf8RrhVpsV4k7H+1wW8Ay1SqYZ2BOz/y40f17G2rm+nKLxWRUS1woSVwtiWIoVsBImWOthlP2/HTOJ7cqfOd5XyXDOHz2GNP4WmJaQ7CtRmu/hvpR2InBtFfkYlYKi+VfbSclZ/qvIBssxrmlcGEffEQhxtxNDq4gjt8DkiZhld7fjfYc43NNu28ZhttN+VQxt9ZdL/HYpZkN2SW7HfbfvhTEJfZVj/NUWvs9xptVyMPAmZrgsd+jX2/gNy93tmNbFVby4rY5xvF+lPHoTiGeZRzy7VhjHqQnWoSn0eUGIeji/0yOMXT3Se0CF6XzYI449q5DHkphlv0vkXT2C+FnqmJdzHUZN2ujzotwL3EE4n2lnlkib6/Apj3kU3mMxCXydY/zVekZuTaCRGGp717lwWm0jsQr/lUKuJ4K+E1Mlyr8eTkDRVDPJPdMjnkrdfJyTQB0ahnENlXPbk++i6XSPsI72SO8hFaa3ySOOlVXIJW5F83jk+YMSUDQPUN0xIDn2sgpmI/0dgIbyl7axSLpcj/tmf/y8c26OoQCu8Yh/NWVcUQeKpxe/vQJgPN/OKdKr7rSXj6I+yzO91ZzsudIjnhtjbiB6qW7i+BSPeHzPDhptlbpr+L6++Q6yIwz5dagtT+Hs6zEMudwjvfOrkPuxHvFUsjflJM86dKpn+NdFGugOkjk873mP/JxWIpxpto4U6ki/SGXznmCG/heUeHec5iuHYc688HVh/SLhnC5+1VPJ5NzI+47jz8LdoWb03PHrrYI6HrN56hiM++wjbUU8FjjO9vSLmcEdkWEPV19HR1RQLtVMco/D/VAx3+Mavou709Sok9DtqsiPq/PCNtxP7gRziqBPPnpsY/KoLZ97rCK52dat6+x1LeY47YUFyqE7ElauHs1wTO9tFdSjauZRbvaI5wGPYeQdK2irXsR98+/RdlRlbWTo7NGYlczBnvn5kOK7//ctYXW0287RGZ7pO8oOyeeH9zYOp67uazX9PVR3vkK3bVzPslrPp0d4Amay6plIT8332oxZTncgxT3OTsAsKX7C3t+bgevREsNth9tGeV4V4bdj3PxfV8EcxLQiFavU0NP1bL16bTzGT9rldqiz0ry8bHtxlbrWmIVxH+IS11yMb6n8BQ+7Y048fMjW196MXAcXyfMetuznRhrMSq5nrPwme8q82Spu13jW2Pu/WaDzONLWo1vwm1vt503YdjoKLc0dYjtMd5doC1+xQ8sTCLPlYboN7/EqyuYNtt5fM9y2qXfb9mMZW59a3I45Yfi7JdqG8bZNf6ZIR7/sHH2TNct/YR/I+cba4liZVlglsd4KfLMNc5hNvKtDt7PtOPoGzCqkdmvWjcUss26hb7l1N2Z9eLdN80ArvPW2dzfM3ttdwMzdE7P/41P2/w6r1NptHIMj8bXYsDptnppsHofb3zqtnHro7y47em+TlUkzZplht/2/BbNKaY0N534K+93aD3Oq3QCbzi5rBn/SvmTldrR32GeH2bQMwpx0WImr9vMwGzqnlJhPW2/Tt9qm9Sv0+R071Vp8uTmxAfbKDR8OoP9yzG6b7kG2fJoxroK66HNN9GKZoYNS9f5Em559S5j6K+wL/Cxm70QuLycDP7Rj5J02rbk6OtKWbYf9u9f+NiQyrt1q87HGfnbYPHbY/3OWymB7DYzUfez/gyMyy70zRwD/XSAfP7IK4o9WhpswDhfL7f3psmlfa9P/p8j3lwG/9pT7XpiVijMj72B+fO328z3bWz+S/nuDTrdll8t/M/Bxm87uyPu5ib6NnANsnfwIMxHeYoeF2+2oxB/z5vOOsiMXE214Q2waxti05d7HNltHvlOFkploLczmSNn22jxF95jl2pmeiALM1b8e2xY0Y/zdFXPvMxyzSmwy8FnbgZpkh9ejCvNdzOKbbW068leqvW8V1504OuSt58OaRHhyx7LuZHtzq2xj+a5tFNaT3BLb3ERztYy1L9sIzLG87bZR2oSbw0BRGdtjvBl8ynZSttiG+w+2TonkymGS7bx+1pbJmEiHb6hVyi/bsnkD903dQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQggh6gwdfJYNDgQOwBw8NARz6FYr5pTSx+g72TBJtsUc4dqFOQBpOeaAqjQYA3wOczBZM+aEvzdiTk/upMbmAu9J7gTMNvuZ+78nprQ0Y46P7sQczPZ24PB3xpxa2oU50fQdz+cPsJ9d9pqfUL2YauvFNMzBXWAO4HsFc1yzDugSArgGcw539Cjo6LXRXvfaRj9JbsQc4bsCc8LeoynI50zMMddL6Tu+tgdzAuNqzFHOs2OI916rWFdYpfahlcFK+/f79rcV9r53gMXAIuBVYCGwAHNyYQhOtGG/DjxC4bPuK2WkVTK58+M3YM6H9+Et+9wazEmMcXMU8Hgk3YWuzbYcZquZEY3K/rZX2utxdQKXJJjGQspvekJxDweeKyGLnDWxGugAngcODhj/K55lEy2jdts5aAX2C5Se02x5dANLgB0C5nVsgXx0eCrJ3Nn1m2O2Iva3yiM/rRtt/J327468e+Zb60eIhuGyIo1UB/AmMM/2XIv11pKwLI4pEndSQyKv2fja7Oci4CHgKmtpPWBlFW1Q1gAzA8V/K7DKWinrrOXSbi2XqGXVaxv/dfbKWTurbfrGBErP5RFF9iEwOWZF02vz7Mo7Vj69tuziem+6I5Z+ISW/usTowBrbgRGi7jm3wAvwHHBokfu3Bx7Mu//FBNL5Qolee9xDeGfkxXdRiXv3jMjn5sDpGAoMs0NLTbZBHmfj6Y0omZttOibba6K9QjZqV0Tii0PRFGuc78iIojkh0hlrtX8vBa7EDI1NBgbbazpwHvCw7Sz0WuV/upof0QjsHOmh564LgREOz55pX+TbEkjnhLw0zs1L9zUxx/9GJK5VHkNLYxMqx3Py5HNUAnFGFc1KYErAsMeXUDS9wKkOYSyNWJehFc1wYJkNe4ON51rchg93tZbwAWp+RKPwEH2TlL3A9Z7PT0oondfmNTSfx8wLRL+Lk9WReF7OYDlekjd8c1gCcV5J33DdKmDHwBZNubmng8qEsYS+IcVXA+d9TuS9WVnGwi1Ei5oe0Shsn/fiLs5wWtew9ZzMpXnp/1aM8a+KxPN+BuVzIX0rtHqBWQnEOScik9XATgHDHlZAsTyS9/+6Mg324ohVFFrRRK1pLVeuUZolgkQ42X522c/vZzSdhwKjI//fmveZ47IY0xCdhB5vlVyWaMr73JLwe9pE2P1vXXn/t2LmPR6LfDcSs5y4GL3EsyfvaMy+sg/s/z9XUyJEcZ6K9Mo2ZDid0UUArcDAInnoJexy4iinFuhhb8CsNts+AzLKDZ3letp7JhDn1fRfPbVLwLCH5sl6uf1+CmaoKvrbSUXCeJO+VXghLZr76JubSmIhihA1zeLIy/pmRtO4e16j8niB3mX+8EpcvEjpOYPHMAsAhqUgpyvov+ps94QVzdrAimZ4nmxXRn47o4DsCyn7RZHfQyqa/P1M5TgNswT+BOCrwF7AEfbv4zALObZVcyTqldYSDXhWyN8guU+Be6Kb5dpjfmlvpv8+mdzGvPyGbxFwfIJyupH+ezcmJxDnP9N/x/u0wOFH5fx2EauilCJZSjx7rdZGwv3Q4f6llF/YcIqao+TRHE0ydET+HpnB9M2g/y7232GG0fKJLq8eBHw7xjSdBvw/zOq8FZhhvEIWzGeBuzCr+garqlVNvuVwfF793d1aWPkKIefnbWBM783HHe4f4nDPJhWxFE298l7k7xEZTN8Jef9fUeS+X9heY45zYk7XU5g9RBOBLwMXY4bNCu1a/wrx7/GB/o4ze4nPkWaUpiJ/J0EnW28oPpf+S567Im3JuoBxt+d1bEpRyLpeb9Ofnx8hRVOXLIw0UlmzaIZgxrDJazgmAqMwblSGYyaHu/OsmuEYz9NJ9LKfA/4Bs29lgu1Z/9D+3mo/j6H/qrkke/5J0pRwXn5tLcwoP6Fvk+zaPOsmFIvy/i+1rHsV8A3MvMyOmM2a+9qOSpTt1ByJeiXnO6zNvhBHZyht51F6TDu34qezyO/PpZz+a2zPd51NT9yyvT5iyXQQ1sFlMW6JyLsNs4k2JO2R8N8qcd/T9F9xNw/Yjf7zOCEXiZyWV/euqiCM3fLq67lqjkS9MhizbDTnrHA+Yceyq2E5lXkqjl7DUkx/vq+uH8Uc33URRdNOMh4bbqX/Ioy0FE2L/T1a9gvpv+rsiYDpmkT/xSCV1LUj89J7jpqj5NHQWTK0A/9i/x6CcVnu2zubQvhht8OATxUYRmnzHGr5QYqybbL1eJNt/LckFG9vHdVP13mmLozfsNbId3tgFmTEIZd3gN/avwdGrCrf9yaav241R6KeGUKfe5U1djjgYdwcJB5En/uRkM4j38/r7c3GzHGMwoxzb2+vKRinoDvYoYgpeT3bjoBp2g2zQfN2z+GVDfbzrJjLMWfRdKdo0ewROPw2R4smx3ElrNunAqdtOls7o52H2+bN0wukb5aaIlHvHJinbHL7Iu4D9i5w/86YVVbR8082EGY3+pS8F/Atz+cvyHs+xF6WvfKGcV4ADi/T4G2gvweBuA9nuzBSHmttGcXNPRGFvgFzAFgoWvIaclc/fNcXUTRxOEI9o0hc1xZ4b4ZjVlE+VeD+J9QEiUZhBn0eij9ka+eFSzBu0dcWebnuJMz8zhVUN3Y9jvAOMG8pkudlVuFeai2Wuyg8t5TEMQrnWGtmgy3HJCya2+m/GGBmwLCb8mT4rsez8wqUwasxyeCyElbUWsyy+3fovzm6h/5zSaPV/IhGYirmFM1Cq7tKXXMCxT8pT5GtoTJ36vfnpe+8AGk7qoBsOovIpzPyeQ/Gb1fcnBGJs4dkfJ3lewaIU9Gs9qxH+WX1ToxymE1/d06u1yuEO+1UiJpiGGa8//UyL0mHbdD3Cxj3adYC+RDj1uWhCsM50aZvrbUwQvpxO91BNmuBZzBDaElxFOZwr7cxPtl2SyDOy62lsRJYgBliDMVw+g9XLvd8/ttWOXVYxRu3K/8JVh6vO3TOnkq4bogSvRmRLmOAr1tF8hmrgP6E8SbwJPBLwnt8HooZ+tqM8VTwP1WEtTN9LkgGEv4MmWnAIZiVTaMxK8xWWvn8B+ns49kLs2S9HXgpgfgmWTnnLJr/DBz+/pjVeoNsnhZUUEZDbT3dBuPCKG62s+/Ll4DP2e/abF2cbzsgq9S8ZIP/BX6f6hhmfjpHAAAAAElFTkSuQmCC) left center/contain no-repeat;mask:url(data:image/png;base64,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) left center/contain no-repeat}
+.socials{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.socials a{width:42px;height:42px;border:1px solid var(--line2);display:grid;place-items:center;color:var(--fg)}
+.socials a:hover{border-color:var(--gold);color:var(--gold)}
+.stores{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.store{display:flex;align-items:center;gap:10px;border:1px solid var(--line2);padding:8px 12px;text-decoration:none}
+.store small{display:block;font-size:.56rem;letter-spacing:.1em;text-transform:uppercase;color:var(--mute)}
+.store b{font-size:.9rem}
+.foot-bottom{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;margin-top:48px;padding-top:20px;border-top:1px solid var(--line);font-size:.84rem;color:var(--mute)}
+.foot-bottom button{background:none;border:0;text-decoration:underline;cursor:pointer;color:inherit;font-size:.84rem}
+@media (max-width:960px){.foot-grid{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.foot-grid{grid-template-columns:1fr}}
+
+/* selección, WhatsApp, modales */
+.selbtn{position:fixed;left:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:70;display:flex;align-items:center;gap:10px;background:var(--fg);color:#0d0d0f;border:0;padding:12px 16px;font-weight:700;cursor:pointer;box-shadow:0 10px 30px rgba(0,0,0,.5)}
+.selbtn .n{background:var(--gold);min-width:24px;height:24px;display:grid;place-items:center;font-size:.82rem;padding:0 6px}
+.wa{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:70;width:56px;height:56px;border-radius:50%;background:#25d366;display:grid;place-items:center;color:#fff;box-shadow:0 10px 30px rgba(0,0,0,.5)}
+.drawer-bg{position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:75}
+.drawer{position:fixed;top:0;right:0;bottom:0;width:min(440px,100%);background:var(--bg2);border-left:1px solid var(--line2);z-index:76;display:grid;grid-template-rows:auto 1fr auto;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+.dr-head{padding:20px;border-bottom:1px solid var(--line);display:grid;gap:12px}
+.dr-head h3{font-family:var(--f-display);font-weight:400;font-size:2rem;text-transform:uppercase}
+.dr-head .form-grid{gap:10px}
+.dr-list{overflow:auto;padding:12px 20px;display:grid;gap:8px;align-content:start}
+.sel-item{display:grid;grid-template-columns:48px minmax(0,1fr) auto;gap:12px;align-items:center;border:1px solid var(--line);padding:8px}
+.sel-item .mini{width:48px;height:60px;overflow:hidden}
+.sel-item .mini .ini span{font-size:1.2rem}.sel-item .mini .ini small{display:none}
+.sel-item b{display:block;font-size:.95rem}
+.sel-item small{font-size:.76rem;color:var(--mute)}
+.sel-item button{border:1px solid var(--line2);background:transparent;width:32px;height:32px;cursor:pointer;color:var(--fg)}
+.dr-foot{padding:14px 20px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:10px}
+.dr-foot .btn{flex:1}
+.dr-foot .btn-ink{background:var(--gold);color:#0d0d0f;border-color:var(--gold)}
+.modal{position:fixed;inset:0;z-index:80;background:rgba(0,0,0,.7);display:grid;place-items:center;padding:16px}
+.modal-box{background:var(--bg2);border:1px solid var(--line2);width:min(560px,100%);max-height:calc(100vh - 32px);overflow:auto;padding:clamp(20px,4vw,32px);position:relative}
+.modal-box.wide{width:min(760px,100%)}
+.modal-box h3{font-family:var(--f-display);font-weight:400;font-size:2.2rem;text-transform:uppercase;line-height:1;margin:12px 0 6px}
+.x{position:absolute;top:14px;right:14px;width:38px;height:38px;border:1px solid var(--line2);background:transparent;font-size:1.2rem;cursor:pointer;color:var(--fg)}
+.ficha{display:grid;grid-template-columns:200px minmax(0,1fr);gap:22px}
+.ficha .av{aspect-ratio:4/5;max-width:100%;border:1px solid var(--line);overflow:hidden}
+.ficha dl{display:grid;grid-template-columns:auto 1fr;gap:6px 14px;margin:0;font-size:.92rem}
+.ficha dt{font-family:var(--f-mono);font-size:.64rem;letter-spacing:.12em;text-transform:uppercase;color:var(--mute);padding-top:3px}
+.ficha dd{margin:0}
+.ficha h4{font-family:var(--f-mono);font-weight:500;font-size:.72rem;letter-spacing:.16em;color:var(--gold);margin:18px 0 8px;text-transform:uppercase}
+.ficha ul{margin:0;padding-left:18px;color:var(--mid)}
+.ficha .ptags .tag{background:transparent!important}
+@media (max-width:620px){.ficha{grid-template-columns:1fr}.ficha .av{width:160px}}
+.ok{text-align:center;padding:8px 0}
+.ok .big{font-family:var(--f-display);font-size:2.6rem;text-transform:uppercase;color:var(--gold)}
+.toast{position:fixed;left:50%;bottom:calc(84px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:90;background:var(--gold);color:#0d0d0f;padding:12px 20px;font-weight:700;max-width:calc(100% - 32px)}
+@media (max-width:560px){
+  .tgrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  .pcard .pact{grid-template-columns:1fr}.pcard .ptags{display:none}.pcard .pn{flex-direction:column;gap:0}.pcard .facts{font-size:.74rem}.pcard .pb{padding:9px}
+  .ini span{font-size:2.2rem}
+}
+@media (max-width:1120px){.topbar .nav-cta{display:none}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
+</style>
+
+<div class="strip" aria-hidden="true"><div class="strip-track" id="strip"></div></div>
+
+<header class="topbar">
+  <div class="wrap bar">
+    <a class="brand" href="#portada" aria-label="Herrerías Casting, ir a portada"><b>HERRERÍAS</b><small>CASTING</small></a>
+    <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="links"><svg width="22" height="14" viewBox="0 0 22 14" fill="none"><path d="M0 1h22M0 7h22M0 13h22" stroke="currentColor" stroke-width="1.6"/></svg></button>
+    <nav class="links" id="links" aria-label="Principal">
+      <a href="#portada" data-link>Portada</a>
+      <a href="#perfil" data-link>Mi perfil</a>
+      <a href="#casting" data-link>Casting On-line</a>
+      <a href="#proyectos" data-link>Proyectos</a>
+      <div class="dd" id="dd">
+        <button id="ddBtn" aria-expanded="false" aria-controls="ddMenu">Nuestra agencia <svg width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.6"/></svg></button>
+        <div class="dd-menu" id="ddMenu" hidden>
+          <a href="#agencia" data-panel="quienes">¿Quiénes somos?</a>
+          <a href="#agencia" data-panel="como">¿Cómo trabajamos?</a>
+          <a href="#agencia" data-panel="online">Casting Online ¿Qué es?</a>
+          <a href="#agencia" data-panel="porque">¿Por qué Herrerías?</a>
+          <a href="#agencia" data-panel="clientes">Nuestros clientes</a>
+          <a href="#agencia" data-panel="equipo">Equipo directivo</a>
+          <a href="#ubicacion">¿Dónde estamos?</a>
+          <a href="#agencia" data-panel="privacidad">Aviso de privacidad</a>
+        </div>
+      </div>
+      <a href="#ubicacion" data-link>Ubicación</a>
+      <a href="#contacto" data-link>Contáctanos</a>
+    </nav>
+    <a class="btn btn-gold btn-sm nav-cta" href="#contacto">Solicitar casting</a>
+  </div>
+</header>
+
+<main>
+<!-- ============ PORTADA ============ -->
+<section id="portada" class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">AGENCIA DE TALENTO · CDMX · MÁS DE 12 AÑOS EN SET</p>
+      <h1>Extras que<br>hacen creíble<br><span>la escena.</span></h1>
+      <p class="lede">Gestionamos y representamos extras, actores, modelos y conductores para telenovelas, series, cine y publicidad. Un aliado del equipo de producción, no solamente un intermediario.</p>
+      <div class="hero-actions"><a class="btn btn-light" href="#buscador">Buscar talento</a><a class="btn btn-line" href="#perfil">Soy extra: registrarme</a></div>
+    </div>
+    <aside class="credits-col" aria-label="Algunas producciones en las que hemos hecho casting de extras">
+      <p class="col-title">CASTING DE EXTRAS</p>
+      <div class="pst-grid"><figure class="pst"><div class="ph" data-poster="La Rosa de Guadalupe"><span>Portada</span></div><figcaption><b>LA ROSA DE GUADALUPE</b><small>TELEVISA</small></figcaption></figure><figure class="pst"><div class="ph" data-poster="Luis Miguel"><span>Portada</span></div><figcaption><b>LUIS MIGUEL</b><small>SERIE</small></figcaption></figure><figure class="pst"><div class="ph" data-poster="Cielo Rojo"><span>Portada</span></div><figcaption><b>CIELO ROJO</b><small>TV AZTECA</small></figcaption></figure><figure class="pst"><div class="ph" data-poster="Mariachi"><span>Portada</span></div><figcaption><b>MARIACHI</b><small>CINE Y SERIES</small></figcaption></figure></div>
+      <div class="mini-list"><div class="mini-row"><div class="ph sm" data-poster="Como dice el dicho"></div><div><b>COMO DICE EL DICHO</b><small>TELEVISA</small></div></div><div class="mini-row"><div class="ph sm" data-poster="El maleficio"></div><div><b>EL MALEFICIO</b><small>TELEVISA</small></div></div><div class="mini-row"><div class="ph sm" data-poster="Las Bravo"></div><div><b>LAS BRAVO</b><small>TV AZTECA</small></div></div><div class="mini-row"><div class="ph sm" data-poster="Flor"></div><div><b>FLOR</b><small>CINE Y SERIES</small></div></div></div>
+      <p class="col-sign">HERRERÍAS CASTING</p>
+    </aside>
+  </div>
+</section>
+
+<section class="stats-band" aria-label="Trayectoria">
+  <div class="wrap stats3">
+    <div><b>12+</b><span>años de experiencia</span></div>
+    <div><b id="totalN">110</b><span>producciones y marcas en nuestro CV</span></div>
+    <div><b>3</b><span>televisoras: Televisa, TV Azteca y Canal 11</span></div>
+  </div>
+</section>
+
+<section class="block" id="diferente">
+  <div class="wrap">
+    <div class="sec-head"><h2>Lo que hacemos<br>diferente</h2><p>Una operación pensada para que producción pueda concentrarse en contar la historia.</p></div>
+    <div class="diff">
+      <div><h3>RESPUESTA</h3><p>Propuestas de talento con disponibilidad, tarifa sugerida y notas relevantes.</p></div>
+      <div><h3>LOGÍSTICA</h3><p>Registro y coordinación de horarios, vestuario, maquillaje y ubicación en set.</p></div>
+      <div><h3>CONTINUIDAD</h3><p>Acciones claras y repetibles para mantener la continuidad de cada escena.</p></div>
+      <div><h3>GRUPOS</h3><p>Organización y manejo profesional de grupos grandes de talento.</p></div>
+      <div><h3>SET</h3><p>Coordinadores que conocen la dinámica y el lenguaje cinematográfico.</p></div>
+      <div><h3>CONTINGENCIAS</h3><p>Reemplazos, cambios de último momento y clima: lo resolvemos en el día.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="qband" aria-label="Búsqueda rápida">
+  <div class="wrap qband-in">
+    <div><p class="eyebrow dark">BÚSQUEDA RÁPIDA</p><h2>¿Qué perfil<br>necesitas?</h2></div>
+    <form class="qsearch" id="qsearch" novalidate>
+      <div class="field"><label class="lbl" for="qTipo">Tipo</label><select id="qTipo"><option value="">Todos</option></select></div>
+      <div class="field"><label class="lbl" for="qSexo">Sexo</label><select id="qSexo"><option value="">Todos</option><option>Mujer</option><option>Hombre</option></select></div>
+      <div class="field"><label class="lbl" for="qMin">Edad desde</label><input id="qMin" type="number" min="1" max="99" placeholder="18"></div>
+      <div class="field"><label class="lbl" for="qMax">Hasta</label><input id="qMax" type="number" min="1" max="99" placeholder="60"></div>
+      <button class="btn btn-ink" type="submit">Buscar <span id="qsCount" class="qs-n"></span></button>
+    </form>
+  </div>
+</section>
+
+<!-- ============ BUSCADOR ============ -->
+<section id="buscador" class="block alt">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><span class="kicker">Para agencia y productoras</span><h2>Buscador de talento</h2></div>
+      <p>Filtra por el perfil que pide la escena, revisa la ficha de cada persona y agrégala a tu selección. Desde la selección copias la lista de llamado completa.</p>
+    </div>
+    <div class="search-layout">
+      <form class="card filters" id="filters" novalidate aria-label="Filtros">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:10px"><h3>Filtros</h3><button type="button" class="btn btn-sm" id="clearF">Limpiar</button></div>
+        <div class="fgroup"><span class="lbl">Tipo de talento</span><div class="chips" id="fTipo"></div></div>
+        <div class="fgroup"><span class="lbl">Sexo</span><div class="seg" id="fSexo"><button type="button" data-v="" aria-pressed="true">Todos</button><button type="button" data-v="Mujer" aria-pressed="false">Mujer</button><button type="button" data-v="Hombre" aria-pressed="false">Hombre</button></div></div>
+        <div class="fgroup"><span class="lbl">Edad (años)</span><div class="range"><input id="fAgeMin" type="number" min="1" max="99" placeholder="Desde" aria-label="Edad desde"><span>–</span><input id="fAgeMax" type="number" min="1" max="99" placeholder="Hasta" aria-label="Edad hasta"></div></div>
+        <div class="fgroup"><span class="lbl">Estatura (cm)</span><div class="range"><input id="fHMin" type="number" min="80" max="220" placeholder="Desde" aria-label="Estatura desde"><span>–</span><input id="fHMax" type="number" min="80" max="220" placeholder="Hasta" aria-label="Estatura hasta"></div></div>
+        <div class="fgroup"><span class="lbl">Complexión</span><div class="chips" id="fComp"></div></div>
+        <div class="fgroup"><span class="lbl">Tono de piel</span><div class="swatches" id="fTez"></div></div>
+        <div class="fgroup"><span class="lbl">Cabello</span><div class="chips" id="fPelo"></div></div>
+        <div class="fgroup"><span class="lbl">Habilidades (todas)</span><div class="chips" id="fSkills"></div></div>
+        <div class="fgroup"><label class="lbl" for="fCity">Ciudad</label><div class="field"><select id="fCity"><option value="">Todas</option></select></div></div>
+        <div class="fgroup">
+          <label class="check"><input type="checkbox" id="fAvail"> Disponible esta semana</label>
+          <label class="check"><input type="checkbox" id="fNoTat"> Sin tatuajes visibles</label>
+          <label class="check"><input type="checkbox" id="fCar"> Con auto propio</label>
+        </div>
+      </form>
+      <div style="min-width:0">
+        <div class="res-bar">
+          <div><span class="count" id="count">0</span> <span class="hint">perfiles encontrados</span></div>
+          <div class="tools">
+            <button type="button" class="btn btn-sm filter-toggle" id="fToggle" aria-controls="filters" aria-expanded="false">Filtros</button>
+            <label class="searchbox"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2.2"/><path d="M20 20l-4-4" stroke="currentColor" stroke-width="2.2"/></svg><input id="fText" type="search" placeholder="Nombre o ID (HC-1024)" aria-label="Buscar por nombre o ID"></label>
+            <select class="sortsel" id="fSort" aria-label="Ordenar"><option value="disp">Disponibles primero</option><option value="edadA">Edad: menor a mayor</option><option value="edadD">Edad: mayor a menor</option><option value="alt">Estatura</option><option value="nuevo">Más recientes</option></select>
+          </div>
+        </div>
+        <div class="active-f" id="activeF"></div>
+        <div class="tgrid" id="tgrid"></div>
+        <div class="more"><button class="btn" type="button" id="moreBtn" hidden>Ver más perfiles</button></div>
+        <p class="note">Perfiles de ejemplo generados para el prototipo. En la versión final este buscador se conecta a la base de datos de la agencia, con acceso solo para el equipo y las productoras.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CASTING ON-LINE / LLAMADOS ============ -->
+<section id="casting" class="block">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><span class="kicker">Llamados abiertos</span><h2>Casting On-line</h2></div>
+      <p>Cada llamado trae el perfil que pide la producción. Los extras aplican desde aquí y la agencia ve de inmediato quién cumple.</p>
+    </div>
+    <div class="steps">
+      <div class="step"><div class="n">1</div><h3>Regístrate</h3><p>Datos, medidas, tallas y foto.</p></div>
+      <div class="step"><div class="n">2</div><h3>Elige un llamado</h3><p>Telenovela, serie, cine o comercial.</p></div>
+      <div class="step"><div class="n">3</div><h3>Aplica o audiciona</h3><p>Confirma disponibilidad o manda tu self-tape.</p></div>
+      <div class="step"><div class="n">4</div><h3>Recibe tu llamado</h3><p>Hora, locación y vestuario por WhatsApp.</p></div>
+    </div>
+    <div class="calls-head">
+      <h3>Llamados de esta semana</h3>
+      <div class="chips" id="callF" role="group" aria-label="Filtrar llamados">
+        <button class="chip" aria-pressed="true" data-f="todos">Todos</button><button class="chip" aria-pressed="false" data-f="Telenovela">Telenovela</button><button class="chip" aria-pressed="false" data-f="Serie">Serie</button><button class="chip" aria-pressed="false" data-f="Película">Película</button><button class="chip" aria-pressed="false" data-f="Comercial">Comercial</button>
+      </div>
+    </div>
+    <div class="tickets" id="tickets"></div>
+    <p class="note">Llamados y títulos de ejemplo para el prototipo. El botón “Ver candidatos” aplica el perfil del llamado en el buscador.</p>
+  </div>
+</section>
+
+<!-- ============ MI PERFIL ============ -->
+<section id="perfil" class="block">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><span class="kicker">Registro de extras y talento</span><h2>Mi perfil</h2></div>
+      <p>Llena tu ficha una sola vez. Con tus medidas y tallas, la agencia te encuentra en segundos cuando un llamado busca a alguien como tú.</p>
+    </div>
+    <div class="profile">
+      <form class="card" id="profileForm" novalidate>
+        <div class="form-grid">
+          <div class="field full"><label class="lbl" for="pName">Nombre completo</label><input id="pName" placeholder="Ej. Guadalupe Hernández" autocomplete="name"></div>
+          <div class="field"><label class="lbl" for="pTipo">Me registro como</label><select id="pTipo"></select></div>
+          <div class="field"><label class="lbl" for="pSexo">Sexo</label><select id="pSexo"><option>Mujer</option><option>Hombre</option></select></div>
+          <div class="field"><label class="lbl" for="pAge">Edad</label><input id="pAge" type="number" min="1" max="99" placeholder="32"></div>
+          <div class="field"><label class="lbl" for="pHeight">Estatura (cm)</label><input id="pHeight" type="number" min="80" max="220" placeholder="165"></div>
+          <div class="field"><label class="lbl" for="pComp">Complexión</label><select id="pComp"></select></div>
+          <div class="field"><label class="lbl" for="pCity">Ciudad</label><select id="pCity"></select></div>
+          <div class="field"><label class="lbl" for="pShirt">Talla de camisa</label><select id="pShirt"><option>CH</option><option selected>M</option><option>G</option><option>XG</option></select></div>
+          <div class="field"><label class="lbl" for="pShoe">Calzado (MX)</label><input id="pShoe" type="number" step="0.5" min="12" max="32" placeholder="25"></div>
+          <div class="field"><label class="lbl" for="pTez">Tono de piel</label><select id="pTez"></select></div>
+          <div class="field"><label class="lbl" for="pPelo">Color de cabello</label><select id="pPelo"></select></div>
+          <div class="field full"><span class="lbl">Habilidades</span><div class="chips" id="skills"></div></div>
+          <div class="field full" style="display:flex;flex-wrap:wrap;gap:16px">
+            <label class="check"><input type="checkbox" id="pTat"> Tengo tatuajes visibles</label>
+            <label class="check"><input type="checkbox" id="pCar"> Tengo auto propio</label>
+            <label class="check"><input type="checkbox" id="pAvail" checked> Disponible esta semana</label>
+          </div>
+          <div class="field full"><span class="lbl">Foto (opcional)</span>
+            <label class="upload" for="pPhoto"><span class="ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4 7h3l2-3h6l2 3h3v13H4z" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="13" r="4" stroke="currentColor" stroke-width="2"/></svg></span><span><b id="photoLabel">Subir foto</b><br><span class="hint">Retrato de frente, con buena luz.</span></span><input id="pPhoto" type="file" accept="image/*"></label></div>
+        </div>
+        <div class="form-actions"><button class="btn btn-ink" type="submit">Registrarme</button><button class="btn" type="button" id="resetProfile">Limpiar</button><span class="hint" id="profileMsg"></span></div>
+      </form>
+      <aside class="ficha-prev" id="gafete" aria-label="Vista previa de tu ficha">
+        <div class="fp-head"><span>FICHA DE TALENTO</span><span id="gId">HC-0000</span></div>
+        <div class="fp-photo" id="gPhoto"></div>
+        <div class="fp-body">
+          <div class="fp-name" id="gName">Tu nombre</div>
+          <div class="fp-type" id="gType">Extra · CDMX</div>
+          <div class="fp-stats"><div><small>EDAD</small><strong id="gAge">—</strong></div><div><small>ESTATURA</small><strong id="gHeight">—</strong></div><div><small>TALLAS</small><strong id="gSize">M</strong></div></div>
+          <div class="fp-skills" id="gSkills"></div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROYECTOS ============ -->
+<section id="proyectos" class="block alt">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><span class="kicker">Portafolio</span><h2>Proyectos</h2></div>
+      <p>Más de 12 años de experiencia en televisión, cine, series y publicidad. Estas son algunas de las producciones y marcas con las que hemos colaborado.</p>
+    </div>
+    <div class="tabs" role="tablist" aria-label="Tipo de proyecto">
+      <button class="tab" role="tab" aria-selected="true" data-cat="televisa">Televisa</button>
+      <button class="tab" role="tab" aria-selected="false" data-cat="tvazteca">TV Azteca</button>
+      <button class="tab" role="tab" aria-selected="false" data-cat="canal11">Canal 11</button>
+      <button class="tab" role="tab" aria-selected="false" data-cat="cine">Cine y series</button>
+      <button class="tab" role="tab" aria-selected="false" data-cat="publicidad">Publicidad y marcas</button>
+    </div>
+    <div class="credits" id="posters"></div>
+  </div>
+</section>
+
+<!-- ============ AGENCIA ============ -->
+<section id="agencia" class="block">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><span class="kicker">Conócenos</span><h2>Nuestra agencia</h2></div>
+      <p>Un aliado esencial del equipo de producción, no solamente un intermediario.</p>
+    </div>
+    <div class="agency">
+      <div class="ag-tabs" role="tablist" id="agTabs" aria-label="Secciones de la agencia">
+        <button role="tab" data-p="quienes" aria-selected="true">¿Quiénes somos?</button>
+        <button role="tab" data-p="como" aria-selected="false">¿Cómo trabajamos?</button>
+        <button role="tab" data-p="online" aria-selected="false">Casting Online ¿Qué es?</button>
+        <button role="tab" data-p="porque" aria-selected="false">¿Por qué Herrerías?</button>
+        <button role="tab" data-p="clientes" aria-selected="false">Nuestros clientes</button>
+        <button role="tab" data-p="equipo" aria-selected="false">Equipo directivo</button>
+        <button role="tab" data-p="privacidad" aria-selected="false">Aviso de privacidad</button>
+      </div>
+      <div class="card ag-panel" id="agPanel" role="tabpanel" aria-live="polite"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ UBICACIÓN ============ -->
+<section id="ubicacion" class="block">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><span class="kicker">Oficinas</span><h2>¿Dónde estamos?</h2></div>
+      <p>Ven a tu registro presencial, sesión de fotos o casting.</p>
+    </div>
+    <div class="location">
+      <div class="card loc-list">
+        <div class="loc-row"><span class="ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 21s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="9" r="2.5" stroke="currentColor" stroke-width="2"/></svg></span><div><b>Dirección</b><span>Av. Del Parque 3, Col. Campestre, Álvaro Obregón, C.P. 01040, CDMX</span></div></div>
+        <div class="loc-row"><span class="ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/><path d="M12 7v5l3 2" stroke="currentColor" stroke-width="2"/></svg></span><div><b>Horario de registro</b><span>[Horario por confirmar] · Trae identificación oficial</span></div></div>
+        <div class="loc-row"><span class="ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4 6h16v12H4z" stroke="currentColor" stroke-width="2"/><path d="M4 7l8 6 8-6" stroke="currentColor" stroke-width="2"/></svg></span><div><b>Correo</b><span>herreriascasting@gmail.com</span></div></div>
+        <div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:6px">
+          <a class="btn btn-ink" href="https://www.google.com/maps/search/?api=1&query=Av.+Del+Parque+3,+Col.+Campestre,+%C3%81lvaro+Obreg%C3%B3n,+01040+Ciudad+de+M%C3%A9xico" target="_blank" rel="noopener">Abrir en Google Maps</a>
+          <a class="btn" href="#contacto">Agendar visita</a>
+        </div>
+      </div>
+      <div class="map"><canvas id="map" aria-hidden="true"></canvas><div class="pin"><span class="bubble">Herrerías Casting</span><span class="stick"></span><span class="dot"></span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACTO ============ -->
+<section id="contacto" class="block alt">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><span class="kicker">Para productoras</span><h2>Solicitud de casting</h2></div>
+      <p>Dinos cuántos extras necesitas, el perfil, la fecha y la locación. Te respondemos con propuesta de talento, disponibilidad, tarifa sugerida y notas relevantes.</p>
+    </div>
+    <div class="contact">
+      <div>
+        <p style="font-weight:600;font-size:1.05rem">Para hacer una solicitud de Casting o Extras comunícate con nosotros:</p>
+        <div class="phones">
+          <div class="phone"><span>(55) 4817 6595</span><button class="copy" data-copy="55 4817 6595">Copiar</button></div>
+          <div class="phone"><span>(55) 2728 0624</span><button class="copy" data-copy="55 2728 0624">Copiar</button></div>
+          <div class="phone"><span class="small">herreriascasting@gmail.com</span><button class="copy" data-copy="herreriascasting@gmail.com">Copiar</button></div>
+        </div>
+      </div>
+      <form class="card" id="contactForm" novalidate>
+        <div class="form-grid">
+          <div class="field"><label class="lbl" for="cName">Nombre</label><input id="cName" placeholder="Tu nombre"></div>
+          <div class="field"><label class="lbl" for="cCompany">Productora</label><input id="cCompany" placeholder="Nombre de la productora"></div>
+          <div class="field"><label class="lbl" for="cMail">Correo</label><input id="cMail" type="email" placeholder="nombre@productora.com"></div>
+          <div class="field"><label class="lbl" for="cPhone">Teléfono</label><input id="cPhone" type="tel" placeholder="(55) 1234 5678"></div>
+          <div class="field"><label class="lbl" for="cKind">Proyecto</label><select id="cKind"><option>Telenovela</option><option>Serie</option><option>Película</option><option>Cortometraje</option><option>Comercial</option><option>Videoclip</option></select></div>
+          <div class="field"><label class="lbl" for="cQty">Número de extras</label><input id="cQty" type="number" min="1" placeholder="50"></div>
+          <div class="field"><label class="lbl" for="cDate">Fecha de llamado</label><input id="cDate" type="date"></div>
+          <div class="field"><label class="lbl" for="cPlace">Locación</label><input id="cPlace" placeholder="Ej. Hacienda en Tlaxcala"></div>
+          <div class="field full"><label class="lbl" for="cMsg">Perfiles que buscas</label><textarea id="cMsg" placeholder="Ej. 40 invitados de boda 25–60 años, 10 meseros, 2 niñas de 7 años. Vestuario de gala propio."></textarea></div>
+        </div>
+        <div class="form-actions"><button class="btn btn-pink" type="submit">Preparar solicitud</button><span class="hint" id="contactMsg"></span></div>
+        <div class="summary" id="summary" hidden><span class="mono" style="font-weight:600">Tu solicitud</span><pre id="summaryText"></pre><button type="button" class="btn btn-sm" id="copySummary">Copiar solicitud</button></div>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-big">Herrerías<br><span>Casting</span></div>
+    <div class="foot-grid">
+      <div><div class="foot-logo" role="img" aria-label="Herrerías Casting"></div><p style="opacity:.8;margin-top:16px;font-size:.94rem">Agencia de talento: extras, actores, modelos y conductores para televisión, cine, series y publicidad.<br><br>Av. Del Parque 3, Col. Campestre, Álvaro Obregón, C.P. 01040, CDMX</p></div>
+      <div><h5>Nuestra agencia</h5><ul>
+        <li><a href="#perfil">Mi Perfil</a></li><li><a href="#ubicacion">¿Dónde Estamos?</a></li><li><a href="#agencia" data-panel="quienes">¿Quiénes Somos?</a></li><li><a href="#agencia" data-panel="como">¿Cómo Trabajamos?</a></li><li><a href="#agencia" data-panel="online">Casting Online ¿Qué Es?</a></li><li><a href="#agencia" data-panel="porque">¿Por qué Herrerías?</a></li><li><a href="#agencia" data-panel="clientes">Nuestros Clientes</a></li><li><a href="#agencia" data-panel="equipo">Equipo Directivo</a></li><li><a href="#agencia" data-panel="privacidad">Aviso de Privacidad</a></li>
+      </ul></div>
+      <div><h5>Solicitud de casting</h5><p style="opacity:.85;font-size:.94rem">Para hacer una solicitud de Casting o Extras comunícate con nosotros a:</p><p style="margin-top:12px"><b>Teléfonos:</b><br>(55) 4817 6595<br>ó<br>(55) 2728 0624<br><br>herreriascasting@gmail.com</p><a class="btn btn-yellow btn-sm" href="#contacto" style="margin-top:16px">Enviar solicitud</a></div>
+      <div><h5>Proyectos</h5><ul><li><a href="#proyectos" data-cat="televisa">Televisa</a></li><li><a href="#proyectos" data-cat="tvazteca">TV Azteca</a></li><li><a href="#proyectos" data-cat="canal11">Canal 11</a></li><li><a href="#proyectos" data-cat="cine">Cine y series</a></li><li><a href="#proyectos" data-cat="publicidad">Publicidad</a></li></ul>
+        <div class="socials">
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M14 8h3V4h-3c-2.8 0-4.5 1.8-4.5 4.6V11H7v4h2.5v9h4v-9h3l.5-4h-3.5V8.8c0-.5.3-.8.5-.8z"/></svg></a>
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+          <a href="https://www.tiktok.com/" target="_blank" rel="noopener" aria-label="TikTok"><svg width="17" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16.5 2h-3.4v13.4a3 3 0 1 1-3-3c.3 0 .6 0 .9.1V9a6.4 6.4 0 1 0 5.5 6.4V8.6a8 8 0 0 0 4.5 1.4V6.6c-2.4 0-4.4-2-4.5-4.6z"/></svg></a>
+          <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="YouTube"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M22 8.2a3 3 0 0 0-2.1-2.1C18 5.6 12 5.6 12 5.6s-6 0-7.9.5A3 3 0 0 0 2 8.2 31 31 0 0 0 1.6 12a31 31 0 0 0 .4 3.8 3 3 0 0 0 2.1 2.1c1.9.5 7.9.5 7.9.5s6 0 7.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .4-3.8 31 31 0 0 0-.4-3.8zM10 15V9l5.2 3z"/></svg></a>
+          <a href="https://www.imdb.com/" target="_blank" rel="noopener" aria-label="IMDb"><span style="font-weight:800;font-size:.68rem">IMDb</span></a>
+        </div>
+        <div class="stores">
+          <a class="store" href="#contacto"><svg width="16" height="18" viewBox="0 0 24 26" fill="currentColor"><path d="M2 1l13 12L2 25c-.6-.3-1-1-1-1.7V2.7C1 2 1.4 1.3 2 1zm14.4 13.4l3.1 3.1-13.8 7.8zm0-2.8L5.7 1.7l13.8 7.8zm5 1.6c.8.5.8 1.6 0 2.1l-2.8 1.6-3.3-3.3 3.3-3.3z"/></svg><span><small>Próximamente</small><b>Google Play</b></span></a>
+          <a class="store" href="#contacto"><svg width="16" height="18" viewBox="0 0 24 28" fill="currentColor"><path d="M19.6 14.9c0-3.4 2.8-5 2.9-5.1-1.6-2.3-4-2.6-4.9-2.7-2.1-.2-4.1 1.2-5.1 1.2s-2.7-1.2-4.4-1.2C5.8 7.2 3.7 8.5 2.6 10.5c-2.4 4.1-.6 10.2 1.7 13.5 1.1 1.6 2.5 3.5 4.2 3.4 1.7-.1 2.3-1.1 4.4-1.1s2.6 1.1 4.4 1.1c1.8 0 3-1.7 4.1-3.3 1.3-1.9 1.8-3.7 1.9-3.8-.1 0-3.7-1.4-3.7-5.4zM16.2 4.9c.9-1.1 1.6-2.7 1.4-4.2-1.3.1-3 .9-3.9 2-.9 1-1.6 2.6-1.4 4.1 1.5.1 3-.8 3.9-1.9z"/></svg><span><small>Próximamente</small><b>App Store</b></span></a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom"><span>© <span id="yr">2026</span> Herrerías Casting · Prototipo</span><button type="button" data-panel="privacidad">Aviso de privacidad</button></div>
+  </div>
+</footer>
+
+<!-- selección -->
+<button class="selbtn" id="selBtn" type="button" aria-controls="drawer" aria-expanded="false">Mi selección <span class="n" id="selN">0</span></button>
+<a class="wa" href="https://wa.me/525548176595" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp"><svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.2-.2-.5-.3z"/></svg></a>
+<div class="drawer-bg" id="drawerBg" hidden></div>
+<aside class="drawer" id="drawer" hidden aria-label="Mi selección para llamado">
+  <div class="dr-head">
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:10px"><h3>Mi selección</h3><button class="x" type="button" id="closeDrawer" aria-label="Cerrar" style="position:static">×</button></div>
+    <div class="form-grid">
+      <div class="field full"><label class="lbl" for="sProj">Proyecto</label><input id="sProj" placeholder="Ej. Telenovela, unitario o comercial"></div>
+      <div class="field"><label class="lbl" for="sScene">Escena</label><input id="sScene" placeholder="Boda en la hacienda"></div>
+      <div class="field"><label class="lbl" for="sDate">Fecha</label><input id="sDate" type="date"></div>
+      <div class="field"><label class="lbl" for="sTime">Hora de llamado</label><input id="sTime" type="time" value="06:00"></div>
+      <div class="field"><label class="lbl" for="sPlace">Locación</label><input id="sPlace" placeholder="Tlaxcala"></div>
+    </div>
+  </div>
+  <div class="dr-list" id="selList"></div>
+  <div class="dr-foot"><button class="btn btn-ink" type="button" id="copyCall">Copiar lista de llamado</button><button class="btn" type="button" id="clearSel">Vaciar</button></div>
+</aside>
+
+<div class="modal" id="fichaModal" hidden role="dialog" aria-modal="true" aria-labelledby="fichaName">
+  <div class="modal-box wide"><button class="x" type="button" data-close aria-label="Cerrar">×</button><div id="fichaBody"></div></div>
+</div>
+
+<div class="modal" id="applyModal" hidden role="dialog" aria-modal="true" aria-labelledby="applyTitle">
+  <div class="modal-box">
+    <button class="x" type="button" data-close aria-label="Cerrar">×</button>
+    <span class="tag cat" id="applyCode"></span>
+    <h3 id="applyTitle">Aplicar</h3>
+    <p class="hint" id="applyDesc"></p>
+    <form id="applyForm" novalidate style="margin-top:18px">
+      <div class="form-grid">
+        <div class="field full"><label class="lbl" for="aName">Nombre completo</label><input id="aName"></div>
+        <div class="field"><label class="lbl" for="aId">ID de talento (si ya tienes)</label><input id="aId" placeholder="HC-1024"></div>
+        <div class="field"><label class="lbl" for="aPhone">WhatsApp</label><input id="aPhone" type="tel"></div>
+        <div class="field full"><label class="check"><input type="checkbox" id="aAvail" checked> Confirmo que estoy disponible en la fecha del llamado</label></div>
+      </div>
+      <div class="form-actions"><button class="btn btn-pink" type="submit">Enviar aplicación</button><span class="hint" id="applyMsg"></span></div>
+    </form>
+    <div class="ok" id="applyOk" hidden><div class="big">Aplicación lista</div><p class="hint" style="margin-top:10px">En la versión final la agencia recibe tu aplicación y te confirma el llamado por WhatsApp.</p><button class="btn btn-ink" type="button" data-close style="margin-top:18px">Seguir viendo llamados</button></div>
+  </div>
+</div>
+<div class="toast" id="toast" hidden role="status"></div>
+
+
+<script>
+(function(){
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const store={get(k){try{return JSON.parse(localStorage.getItem(k))}catch(e){return null}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}},del(k){try{localStorage.removeItem(k)}catch(e){}}};
+let tt;function toast(m){const t=$('#toast');t.textContent=m;t.hidden=false;clearTimeout(tt);tt=setTimeout(()=>t.hidden=true,2600)}
+async function copy(text,el){try{await navigator.clipboard.writeText(text);toast('Copiado')}catch(e){if(el){const r=document.createRange();r.selectNodeContents(el);const s=getSelection();s.removeAllRanges();s.addRange(r)}toast('Texto seleccionado: usa Ctrl+C')}}
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+$('#yr').textContent=new Date().getFullYear();
+
+/* ---------- catálogos ---------- */
+const TIPOS=['Extra','Actor / Actriz','Modelo','Conductor(a)','Talento infantil','Doble de acción','Bailarín(a)'];
+const COMPS=['Delgada','Media','Atlética','Robusta'];
+const PELOS=[['Negro',0],['Castaño',1],['Cobrizo',2],['Rubio',3],['Canoso',4]];
+const SKILLS=['Manejo','Equitación','Baile','Natación','Inglés','Combate escénico','Instrumento','Canto'];
+const CITIES=['CDMX','Edo. Méx.','Guadalajara','Monterrey','Puebla','Querétaro'];
+const HCOL=['#17122e','#5a3417','#b4651e','#f2c14e','#9a9aa6'];
+const TCOL={'Extra':'#ff7a2f','Actor / Actriz':'#3355ff','Modelo':'#9b6bff','Talento infantil':'#2fe0b0','Doble de acción':'#17122e','Bailarín(a)':'#ff4fa3','Conductor(a)':'#3355ff'};
+const SK=['#f3d3b8','#e0ac85','#c08055','#8d5a37','#5c3a22'];const TEZN=['Clara','Media clara','Media','Morena','Oscura'];
+const BGS=['#ffd23f','#2fe0b0','#ff4fa3','#9b6bff','#ff7a2f','#3355ff'];
+
+/* ---------- perfiles de ejemplo ---------- */
+let seed=26;const rnd=()=>(seed=(seed*16807)%2147483647)/2147483647;const pick=a=>a[Math.floor(rnd()*a.length)];
+const NM=['Ana','Lucía','Fernanda','Mariana','Guadalupe','Sofía','Valeria','Rosa','Patricia','Ximena','Daniela','Carmen','Leticia','Paola','Regina','Elena','Teresa','Itzel'];
+const NH=['José','Luis','Carlos','Miguel','Jorge','Ricardo','Arturo','Diego','Emiliano','Fernando','Raúl','Héctor','Alejandro','Javier','Roberto','Santiago','Ernesto','Iván'];
+const AP=['Hernández','García','Martínez','López','González','Pérez','Sánchez','Ramírez','Flores','Cruz','Morales','Reyes','Ortiz','Vargas','Castillo','Romero','Mendoza','Aguilar'];
+const EXP=['Telenovela “Lágrimas de Cristal”','Telenovela “La Dueña del Puerto”','Serie “Barrio Bravo”','Serie “Expediente 47”','Película “Últimas Luces”','Telenovela “Fuego en la Hacienda”','Comercial de refrescos','Videoclip regional','Cortometraje “Silencio”'];
+const GEN=['Telenovela','Serie','Película','Unitario','Comercial','Contenido para redes'];
+const ROLES=['extra de ambiente','invitado de boda','policía','comensal','pasajero de metro','aficionado en estadio','vendedor de mercado','enfermero(a)','soldado de época'];
+const TALENT=[];
+for(let i=0;i<64;i++){
+  const r=rnd();const tipo=r<.56?'Extra':r<.72?'Actor / Actriz':r<.8?'Modelo':r<.88?'Talento infantil':r<.94?'Doble de acción':'Bailarín(a)';
+  const sexo=tipo==='Doble de acción'?(rnd()<.8?'Hombre':'Mujer'):(rnd()<.52?'Mujer':'Hombre');
+  let edad=tipo==='Talento infantil'?5+Math.floor(rnd()*11):tipo==='Modelo'?18+Math.floor(rnd()*14):tipo==='Doble de acción'?22+Math.floor(rnd()*16):18+Math.floor(rnd()*58);
+  let alt=tipo==='Talento infantil'?Math.round(105+(edad-5)*6+rnd()*8):sexo==='Mujer'?150+Math.floor(rnd()*28):160+Math.floor(rnd()*30);
+  if(tipo==='Modelo')alt+=8;
+  const skin=Math.floor(rnd()*5);
+  let pelo=edad>58&&rnd()<.75?4:Math.floor(rnd()*(rnd()<.7?2:4));
+  const hairStyle=sexo==='Mujer'?pick(['long','long','bun','curly','short']):edad>50&&rnd()<.35?'bald':pick(['short','short','curly','cap']);
+  const sk=[...SKILLS].sort(()=>rnd()-.5).slice(0,1+Math.floor(rnd()*3));
+  if(tipo==='Doble de acción'&&!sk.includes('Combate escénico'))sk.push('Combate escénico');
+  if(tipo==='Bailarín(a)'&&!sk.includes('Baile'))sk.push('Baile');
+  const nombre=(sexo==='Mujer'?pick(NM):pick(NH))+' '+pick(AP);
+  TALENT.push({id:'HC-'+(1001+i),nombre,tipo,sexo,edad,alt,comp:tipo==='Doble de acción'?'Atlética':pick(COMPS),skin,pelo,hair:hairStyle,ojos:pick(['Cafés','Cafés','Negros','Miel','Verdes']),skills:sk,city:rnd()<.62?'CDMX':pick(CITIES),
+   avail:rnd()<.68,tat:rnd()<.22,car:rnd()<.35,talla:tipo==='Talento infantil'?pick(['8','10','12','14']):pick(['CH','M','M','G','XG']),calzado:tipo==='Talento infantil'?(18+Math.floor(rnd()*6)):sexo==='Mujer'?(22+Math.floor(rnd()*5)):(25+Math.floor(rnd()*5)),
+   exp:[pick(GEN)+' · '+pick(ROLES),pick(GEN)+' · '+pick(ROLES)].filter((v,j,a)=>a.indexOf(v)===j),glasses:rnd()<.12,stache:sexo==='Hombre'&&edad>25&&rnd()<.3,bg:BGS[i%6],alta:i});
+}
+function avatar(p){if(p.photo)return `<img src="${p.photo}" alt="" style="display:block;width:100%;height:100%;object-fit:cover">`;const ini=p.nombre.split(' ').map(w=>w[0]).slice(0,2).join('');return `<div class="ini"><span>${ini}</span><small>SIN FOTO</small></div>`}
+
+
+
+/* ---------- cinta y menú ---------- */
+const strip=['LA ROSA DE GUADALUPE','LUIS MIGUEL','CIELO ROJO','COMO DICE EL DICHO','MARIACHI','EL MALEFICIO','LAS BRAVO','EMPERATRIZ','FLOR','MÉDICOS','EL DÍA DE LA UNIÓN','HERMANOS CORAJE'];
+$('#strip').innerHTML=[...strip,...strip].map(s=>`<span>${s}</span>`).join('<i>·</i>');
+const links=$('#links'),burger=$('#burger'),dd=$('#dd'),ddBtn=$('#ddBtn'),ddMenu=$('#ddMenu');
+burger.onclick=()=>{const o=links.classList.toggle('open');burger.setAttribute('aria-expanded',o)};
+function setDD(o){dd.classList.toggle('open',o);ddMenu.hidden=!o;ddBtn.setAttribute('aria-expanded',o)}
+ddBtn.onclick=e=>{e.stopPropagation();setDD(ddMenu.hidden)};
+document.addEventListener('click',e=>{if(!dd.contains(e.target))setDD(false)});
+links.addEventListener('click',e=>{if(e.target.closest('a')){links.classList.remove('open');burger.setAttribute('aria-expanded',false);setDD(false)}});
+const navLinks=$$('.links>a[data-link]');
+const io=new IntersectionObserver(es=>es.forEach(en=>{if(en.isIntersecting)navLinks.forEach(l=>l.classList.toggle('active',l.getAttribute('href')==='#'+en.target.id))}),{rootMargin:'-45% 0px -50% 0px'});
+$$('main section[id]').forEach(s=>io.observe(s));
+
+/* ---------- filtros ---------- */
+const F={tipo:new Set(),sexo:'',ageMin:'',ageMax:'',hMin:'',hMax:'',comp:new Set(),tez:new Set(),pelo:new Set(),skills:new Set(),city:'',avail:false,noTat:false,car:false,text:'',sort:'disp'};
+const chipHTML=(arr,attr)=>arr.map(v=>`<button type="button" class="chip" data-${attr}="${esc(v)}" aria-pressed="false">${esc(v)}</button>`).join('');
+$('#fTipo').innerHTML=chipHTML(TIPOS,'v');$('#fComp').innerHTML=chipHTML(COMPS,'v');$('#fSkills').innerHTML=chipHTML(SKILLS,'v');
+$('#fPelo').innerHTML=PELOS.map(([l,i])=>`<button type="button" class="chip" data-v="${i}" aria-pressed="false">${l}</button>`).join('');
+$('#fTez').innerHTML=SK.map((c,i)=>`<button type="button" class="sw" style="background:${c}" data-v="${i}" aria-label="Tono ${i+1}" aria-pressed="false"></button>`).join('');
+['#fCity','#pCity'].forEach(s=>{$(s).innerHTML+=CITIES.map(c=>`<option>${c}</option>`).join('')});
+$('#qTipo').innerHTML+=TIPOS.map(t=>`<option>${t}</option>`).join('');
+$('#pTipo').innerHTML=TIPOS.map(t=>`<option>${t}</option>`).join('');
+$('#pComp').innerHTML=COMPS.map(t=>`<option${t==='Media'?' selected':''}>${t}</option>`).join('');
+$('#pCity').querySelector('option[value=""]')?.remove();
+
+function bindSet(sel,set,num){$(sel).addEventListener('click',e=>{const b=e.target.closest('[data-v]');if(!b)return;const v=num?+b.dataset.v:b.dataset.v;set.has(v)?set.delete(v):set.add(v);b.setAttribute('aria-pressed',set.has(v));shown=PAGE;run()})}
+bindSet('#fTipo',F.tipo);bindSet('#fComp',F.comp);bindSet('#fSkills',F.skills);bindSet('#fPelo',F.pelo,true);bindSet('#fTez',F.tez,true);
+$('#fSexo').onclick=e=>{const b=e.target.closest('button');if(!b)return;F.sexo=b.dataset.v;syncUI();shown=PAGE;run()};
+[['#fAgeMin','ageMin'],['#fAgeMax','ageMax'],['#fHMin','hMin'],['#fHMax','hMax'],['#fCity','city'],['#fText','text'],['#fSort','sort']].forEach(([s,k])=>$(s).addEventListener('input',e=>{F[k]=e.target.value;shown=PAGE;run()}));
+[['#fAvail','avail'],['#fNoTat','noTat'],['#fCar','car']].forEach(([s,k])=>$(s).addEventListener('change',e=>{F[k]=e.target.checked;shown=PAGE;run()}));
+function syncUI(){
+ $$('#fTipo [data-v]').forEach(b=>b.setAttribute('aria-pressed',F.tipo.has(b.dataset.v)));
+ $$('#fComp [data-v]').forEach(b=>b.setAttribute('aria-pressed',F.comp.has(b.dataset.v)));
+ $$('#fSkills [data-v]').forEach(b=>b.setAttribute('aria-pressed',F.skills.has(b.dataset.v)));
+ $$('#fPelo [data-v]').forEach(b=>b.setAttribute('aria-pressed',F.pelo.has(+b.dataset.v)));
+ $$('#fTez [data-v]').forEach(b=>b.setAttribute('aria-pressed',F.tez.has(+b.dataset.v)));
+ $$('#fSexo button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.v===F.sexo));
+ $('#fAgeMin').value=F.ageMin;$('#fAgeMax').value=F.ageMax;$('#fHMin').value=F.hMin;$('#fHMax').value=F.hMax;$('#fCity').value=F.city;$('#fText').value=F.text;$('#fSort').value=F.sort;
+ $('#fAvail').checked=F.avail;$('#fNoTat').checked=F.noTat;$('#fCar').checked=F.car}
+function resetF(){F.tipo.clear();F.comp.clear();F.tez.clear();F.pelo.clear();F.skills.clear();Object.assign(F,{sexo:'',ageMin:'',ageMax:'',hMin:'',hMax:'',city:'',avail:false,noTat:false,car:false,text:''})}
+$('#clearF').onclick=()=>{resetF();syncUI();shown=PAGE;run()};
+$('#fToggle').onclick=()=>{const o=$('#filters').classList.toggle('open');$('#fToggle').setAttribute('aria-expanded',o)};
+
+function match(p,f){f=f||F;
+ if(f.tipo.size&&!f.tipo.has(p.tipo))return false;
+ if(f.sexo&&p.sexo!==f.sexo)return false;
+ if(f.ageMin!==''&&p.edad<+f.ageMin)return false;if(f.ageMax!==''&&p.edad>+f.ageMax)return false;
+ if(f.hMin!==''&&p.alt<+f.hMin)return false;if(f.hMax!==''&&p.alt>+f.hMax)return false;
+ if(f.comp.size&&!f.comp.has(p.comp))return false;if(f.tez.size&&!f.tez.has(p.skin))return false;if(f.pelo.size&&!f.pelo.has(p.pelo))return false;
+ for(const s of f.skills)if(!p.skills.includes(s))return false;
+ if(f.city&&p.city!==f.city)return false;if(f.avail&&!p.avail)return false;if(f.noTat&&p.tat)return false;if(f.car&&!p.car)return false;
+ if(f.text){const q=f.text.toLowerCase().trim();if(q&&!(p.nombre.toLowerCase().includes(q)||p.id.toLowerCase().includes(q)))return false}
+ return true}
+const PAGE=24;let shown=PAGE;
+const SEL=new Set(store.get('hc4_sel')||[]);
+function card(p){const s=SEL.has(p.id);return `<article class="pcard${s?' sel':''}" data-id="${p.id}">${p.mine?'<span class="new-badge">Tu perfil</span>':''}
+ <div class="av" data-open="${p.id}" role="button" tabindex="0" aria-label="Ver ficha de ${esc(p.nombre)}">${avatar(p)}<span class="avail${p.avail?'':' no'}"><i></i>${p.avail?'Disponible':'Ocupado'}</span><span class="tipo">${p.tipo}</span></div>
+ <div class="pb"><div class="pn"><b>${esc(p.nombre)}</b><small>${p.id}</small></div>
+ <div class="facts">${p.edad} años · ${(p.alt/100).toFixed(2)} m · ${p.city}</div>
+ <div class="ptags">${[p.comp,...p.skills.slice(0,2)].map(t=>`<span>${t}</span>`).join('')}${p.tat?'<span>Tatuajes</span>':''}</div>
+ <div class="pact"><button type="button" data-open="${p.id}">Ver ficha</button><button type="button" class="add" data-add="${p.id}" aria-pressed="${s}">${s?'✓ Elegido':'+ Elegir'}</button></div></div></article>`}
+function activeLabels(){const a=[];if(F.tipo.size)a.push([...F.tipo].join(' / '));if(F.sexo)a.push(F.sexo);
+ if(F.ageMin||F.ageMax)a.push(`${F.ageMin||0}–${F.ageMax||'99'} años`);if(F.hMin||F.hMax)a.push(`${F.hMin||'…'}–${F.hMax||'…'} cm`);
+ if(F.comp.size)a.push([...F.comp].join(' / '));if(F.tez.size)a.push('Tez: '+[...F.tez].map(i=>TEZN[i].toLowerCase()).join(', '));if(F.pelo.size)a.push('Cabello: '+[...F.pelo].map(i=>PELOS[i][0]).join(', '));
+ F.skills.forEach(s=>a.push(s));if(F.city)a.push(F.city);if(F.avail)a.push('Disponible');if(F.noTat)a.push('Sin tatuajes');if(F.car)a.push('Auto propio');if(F.text)a.push('“'+F.text+'”');return a}
+function run(){
+ let list=TALENT.filter(p=>match(p));
+ const so={disp:(a,b)=>(b.avail-a.avail)||(b.mine?1:0)-(a.mine?1:0)||a.alta-b.alta,edadA:(a,b)=>a.edad-b.edad,edadD:(a,b)=>b.edad-a.edad,alt:(a,b)=>b.alt-a.alt,nuevo:(a,b)=>b.alta-a.alta}[F.sort];
+ list.sort(so);
+ $('#count').textContent=list.length;
+ const al=activeLabels();$('#activeF').innerHTML=al.map(t=>`<span>${esc(t)}</span>`).join('');
+ const fc=al.length;$('#fToggle').textContent=fc?`Filtros (${fc})`:'Filtros';
+ $('#tgrid').innerHTML=list.length?list.slice(0,shown).map(card).join(''):`<div class="empty" style="grid-column:1/-1"><b style="font-family:var(--f-display);font-size:1.5rem">Nadie cumple todos los filtros</b><p class="hint">Amplía el rango de edad o estatura, o quita alguna habilidad.</p><button class="btn btn-sm" type="button" id="emptyClear">Limpiar filtros</button></div>`;
+ $('#moreBtn').hidden=list.length<=shown;$('#moreBtn').textContent=`Ver más perfiles (${list.length-shown} restantes)`;
+ const ec=$('#emptyClear');if(ec)ec.onclick=()=>$('#clearF').click();
+}
+$('#moreBtn').onclick=()=>{shown+=PAGE;run()};
+
+/* ---------- selección ---------- */
+function saveSel(){store.set('hc4_sel',[...SEL])}
+function toggleSel(id){SEL.has(id)?SEL.delete(id):SEL.add(id);saveSel();drawSel();run();const p=TALENT.find(x=>x.id===id);toast(SEL.has(id)?`${p.nombre} agregado a tu selección`:`${p.nombre} quitado de tu selección`)}
+function drawSel(){$('#selN').textContent=SEL.size;const items=[...SEL].map(id=>TALENT.find(p=>p.id===id)).filter(Boolean);
+ $('#selList').innerHTML=items.length?items.map(p=>`<div class="sel-item"><div class="mini">${avatar(p)}</div><div style="min-width:0"><b>${esc(p.nombre)}</b><small>${p.id} · ${p.tipo} · ${p.edad} años · ${(p.alt/100).toFixed(2)} m · Talla ${p.talla}</small></div><button type="button" data-rm="${p.id}" aria-label="Quitar a ${esc(p.nombre)}">×</button></div>`).join(''):'<div class="empty"><b style="font-family:var(--f-display);font-size:1.3rem">Tu selección está vacía</b><p class="hint">En el buscador, toca “+ Elegir” en cada perfil que quieras llamar.</p></div>'}
+const SF=['sProj','sScene','sDate','sTime','sPlace'];const sd=store.get('hc4_call');if(sd)SF.forEach(k=>{if(sd[k])$('#'+k).value=sd[k]});
+SF.forEach(k=>$('#'+k).addEventListener('input',()=>store.set('hc4_call',Object.fromEntries(SF.map(x=>[x,$('#'+x).value])))));
+function openDrawer(o){$('#drawer').hidden=!o;$('#drawerBg').hidden=!o;$('#selBtn').setAttribute('aria-expanded',o);if(o)$('#closeDrawer').focus()}
+$('#selBtn').onclick=()=>openDrawer(true);$('#closeDrawer').onclick=()=>openDrawer(false);$('#drawerBg').onclick=()=>openDrawer(false);
+$('#selList').onclick=e=>{const b=e.target.closest('[data-rm]');if(b)toggleSel(b.dataset.rm)};
+$('#clearSel').onclick=()=>{SEL.clear();saveSel();drawSel();run();toast('Selección vacía')};
+$('#copyCall').onclick=()=>{const items=[...SEL].map(id=>TALENT.find(p=>p.id===id)).filter(Boolean);if(!items.length){toast('Agrega perfiles a tu selección primero');return}
+ const d=$('#sDate').value?new Date($('#sDate').value+'T12:00').toLocaleDateString('es-MX',{weekday:'long',day:'numeric',month:'long'}):'Fecha por confirmar';
+ const txt=`LLAMADO · HERRERÍAS CASTING\nProyecto: ${$('#sProj').value||'—'}\nEscena: ${$('#sScene').value||'—'}\nFecha: ${d} · Hora de llamado: ${$('#sTime').value||'—'}\nLocación: ${$('#sPlace').value||'—'}\n\nTalento (${items.length}):\n`+items.map((p,i)=>`${i+1}. ${p.id} · ${p.nombre} · ${p.tipo} · ${p.edad} años · ${(p.alt/100).toFixed(2)} m · Talla ${p.talla} · Calzado ${p.calzado}`).join('\n');
+ copy(txt,$('#selList'))};
+
+/* ---------- clicks en tarjetas / ficha ---------- */
+let lastFocus;
+function openModal(m){lastFocus=document.activeElement;$(m).hidden=false;setTimeout(()=>$(m).querySelector('[data-close]')?.focus(),20)}
+function closeModals(){$$('.modal').forEach(m=>m.hidden=true);lastFocus&&lastFocus.focus&&lastFocus.focus()}
+$$('.modal').forEach(m=>{m.addEventListener('click',e=>{if(e.target===m||e.target.closest('[data-close]'))closeModals()})});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeModals();openDrawer(false);setDD(false)}if((e.key==='Enter'||e.key===' ')&&e.target.matches('.av[data-open]')){e.preventDefault();ficha(e.target.dataset.open)}});
+function ficha(id){const p=TALENT.find(x=>x.id===id);const s=SEL.has(id);
+ $('#fichaBody').innerHTML=`<span class="tag cat">${p.id} · ${p.tipo}</span><h3 id="fichaName">${esc(p.nombre)}</h3><p class="hint" style="margin-bottom:16px">${p.avail?'Disponible esta semana':'Ocupado esta semana'} · ${p.city}</p>
+ <div class="ficha"><div class="av">${p.photo?`<img src="${p.photo}" alt="" style="width:100%;height:100%;object-fit:cover">`:avatar(p)}</div><div>
+ <dl><dt>Sexo</dt><dd>${p.sexo}</dd><dt>Edad</dt><dd>${p.edad} años</dd><dt>Estatura</dt><dd>${(p.alt/100).toFixed(2)} m</dd><dt>Complexión</dt><dd>${p.comp}</dd><dt>Cabello</dt><dd>${PELOS[p.pelo][0]}</dd><dt>Ojos</dt><dd>${p.ojos}</dd><dt>Tallas</dt><dd>Camisa ${p.talla} · Calzado ${p.calzado}</dd><dt>Tatuajes</dt><dd>${p.tat?'Sí, visibles':'No visibles'}</dd><dt>Auto propio</dt><dd>${p.car?'Sí':'No'}</dd></dl>
+ <h4>Habilidades</h4><div class="ptags" style="display:flex;flex-wrap:wrap;gap:6px">${p.skills.map(t=>`<span class="tag" style="background:var(--yellow)">${t}</span>`).join('')}</div>
+ <h4>Experiencia</h4><ul>${p.exp.map(e=>`<li>${esc(e)}</li>`).join('')}</ul></div></div>
+ <div class="form-actions"><button class="btn ${s?'':'btn-pink'}" type="button" id="fichaAdd">${s?'Quitar de mi selección':'+ Agregar a mi selección'}</button><button class="btn" type="button" data-close>Cerrar</button></div>`;
+ $('#fichaAdd').onclick=()=>{toggleSel(id);closeModals()};openModal('#fichaModal')}
+$('#tgrid').addEventListener('click',e=>{const o=e.target.closest('[data-open]');if(o){ficha(o.dataset.open);return}const a=e.target.closest('[data-add]');if(a)toggleSel(a.dataset.add)});
+
+/* ---------- búsqueda rápida ---------- */
+function qCount(){const f={...F,tipo:new Set($('#qTipo').value?[$('#qTipo').value]:[]),comp:new Set(),tez:new Set(),pelo:new Set(),skills:new Set(),sexo:$('#qSexo').value,ageMin:$('#qMin').value,ageMax:$('#qMax').value,hMin:'',hMax:'',city:'',avail:false,noTat:false,car:false,text:''};
+ $('#qsCount').textContent=TALENT.filter(p=>match(p,f)).length+' perfiles'}
+['#qTipo','#qSexo','#qMin','#qMax'].forEach(s=>$(s).addEventListener('input',qCount));
+$('#qsearch').onsubmit=e=>{e.preventDefault();resetF();if($('#qTipo').value)F.tipo.add($('#qTipo').value);F.sexo=$('#qSexo').value;F.ageMin=$('#qMin').value;F.ageMax=$('#qMax').value;syncUI();shown=PAGE;run();$('#buscador').scrollIntoView({behavior:reduce?'auto':'smooth'})};
+
+/* ---------- llamados ---------- */
+const CALLS=[
+ {code:'LL-301',cat:'Telenovela',prod:'Telenovela de época',title:'80 invitados para boda de pueblo',desc:'Mujeres y hombres de 20 a 65 años. Sin tatuajes visibles. Vestuario lo pone producción.',date:'Mar 3 nov',place:'Tlaxcala',urg:true,req:['20–65 años','Sin tatuajes','Disponible'],f:{tipo:['Extra'],ageMin:20,ageMax:65,noTat:true,avail:true},o:{skin:SK[2],hair:'bun',hc:'#17122e',shirt:'#ff4fa3'},c:'#ffd23f'},
+ {code:'LL-302',cat:'Serie',prod:'Serie policiaca',title:'25 policías de fondo',desc:'Hombres y mujeres de 25 a 45 años, complexión atlética o media, de 1.65 m en adelante.',date:'Jue 5 nov',place:'CDMX',req:['25–45 años','1.65 m o más','Atlética / media'],f:{tipo:['Extra','Doble de acción'],ageMin:25,ageMax:45,hMin:165,comp:['Atlética','Media']},o:{skin:SK[1],hair:'cap',hc:'#17122e',shirt:'#17122e',cap:'#3355ff',stache:true},c:'#2fe0b0'},
+ {code:'LL-303',cat:'Película',prod:'Película de época',title:'120 extras de época (1910)',desc:'Adultos de 18 a 70 años sin tatuajes visibles. Hombres con bigote, deseable.',date:'Sáb 7 nov',place:'Puebla',req:['18–70 años','Sin tatuajes'],f:{tipo:['Extra','Actor / Actriz'],ageMin:18,ageMax:70,noTat:true},o:{skin:SK[3],hair:'short',hc:'#5a3417',shirt:'#9b6bff',stache:true},c:'#ff7a2f'},
+ {code:'LL-304',cat:'Telenovela',prod:'Telenovela contemporánea',title:'15 vendedores de mercado',desc:'Mujeres y hombres de 30 a 70 años, complexión media o robusta.',date:'Lun 9 nov',place:'CDMX',req:['30–70 años','Media / robusta'],f:{tipo:['Extra'],ageMin:30,ageMax:70,comp:['Media','Robusta']},o:{skin:SK[2],hair:'curly',hc:'#9a9aa6',shirt:'#2fe0b0',glasses:true},c:'#ff4fa3'},
+ {code:'LL-305',cat:'Comercial',prod:'Marca de refrescos',title:'Familia para comercial',desc:'Niñas y niños de 6 a 10 años, con mamá y papá de 30 a 45 años.',date:'Mié 4 nov',place:'Edo. Méx.',urg:true,req:['Niños 6–10','Disponible'],f:{tipo:['Talento infantil'],ageMin:6,ageMax:10,avail:true},o:{skin:SK[0],hair:'short',hc:'#b4651e',shirt:'#ffd23f'},c:'#9b6bff'},
+ {code:'LL-306',cat:'Serie',prod:'Serie de acción',title:'Dobles de acción para persecución',desc:'Hombres de 22 a 40 años, de 1.72 m en adelante. Combate escénico y manejo, deseables.',date:'Vie 6 nov',place:'CDMX',req:['22–40 años','1.72 m o más','Combate escénico deseable'],f:{tipo:['Doble de acción','Extra','Actor / Actriz'],sexo:'Hombre',ageMin:22,ageMax:40,hMin:172},o:{skin:SK[3],hair:'short',hc:'#17122e',shirt:'#ff7a2f'},c:'#3355ff'}];
+function presetF(f){resetF();(f.tipo||[]).forEach(t=>F.tipo.add(t));(f.comp||[]).forEach(t=>F.comp.add(t));(f.skills||[]).forEach(t=>F.skills.add(t));['sexo','ageMin','ageMax','hMin','hMax','avail','noTat'].forEach(k=>{if(f[k]!=null)F[k]=f[k]})}
+function countFor(f){const save=JSON.stringify({...F,tipo:[...F.tipo],comp:[...F.comp],tez:[...F.tez],pelo:[...F.pelo],skills:[...F.skills]});presetF(f);const n=TALENT.filter(p=>match(p)).length;const o=JSON.parse(save);resetF();Object.assign(F,o,{tipo:new Set(o.tipo),comp:new Set(o.comp),tez:new Set(o.tez),pelo:new Set(o.pelo),skills:new Set(o.skills)});return n}
+let cf='todos';
+function drawCalls(){const l=CALLS.filter(c=>cf==='todos'||c.cat===cf);
+ $('#tickets').innerHTML=l.map(c=>`<article class="ticket"><div class="stub" aria-hidden="true"><span>${c.cat.toUpperCase()}</span><b>${c.date.split(' ').slice(1).join(' ')}</b><small>${c.code}</small></div>
+ <div class="t-body"><div class="t-tags"><span class="tag cat">${c.cat}</span>${c.urg?'<span class="tag urg">Urgente</span>':''}<span class="tag ex">Ejemplo</span></div>
+ <span class="mono" style="color:var(--soft)">${c.prod}</span><h4>${c.title}</h4><p>${c.desc}</p><div class="req">${c.req.map(r=>`<span>${r}</span>`).join('')}</div>
+ <div class="t-meta"><span>${c.date} · ${c.place}</span><div class="acts"><button class="btn btn-sm" data-cand="${c.code}">Ver candidatos (${countFor(c.f)})</button><button class="btn btn-pink btn-sm" data-apply="${c.code}">Aplicar</button></div></div></div></article>`).join('')}
+drawCalls();
+$('#callF').onclick=e=>{const b=e.target.closest('.chip');if(!b)return;cf=b.dataset.f;$$('#callF .chip').forEach(x=>x.setAttribute('aria-pressed',x===b));drawCalls()};
+$('#tickets').onclick=e=>{const c=e.target.closest('[data-cand]');if(c){const call=CALLS.find(x=>x.code===c.dataset.cand);presetF(call.f);syncUI();shown=PAGE;run();
+  if(!$('#sProj').value){$('#sProj').value=call.cat+' '+call.prod;$('#sScene').value=call.title;$('#sPlace').value=call.place}
+  $('#buscador').scrollIntoView({behavior:reduce?'auto':'smooth'});toast('Filtros del llamado '+call.code+' aplicados');return}
+ const a=e.target.closest('[data-apply]');if(!a)return;const call=CALLS.find(x=>x.code===a.dataset.apply);
+ $('#applyCode').textContent=call.code+' · '+call.cat;$('#applyTitle').textContent=call.title;$('#applyDesc').textContent=call.prod+' · '+call.date+' · '+call.place+'. '+call.desc;
+ $('#applyForm').hidden=false;$('#applyOk').hidden=true;$('#applyMsg').textContent='';if(!$('#aName').value&&$('#pName').value)$('#aName').value=$('#pName').value;openModal('#applyModal')};
+$('#applyForm').onsubmit=e=>{e.preventDefault();const n=$('#aName'),ph=$('#aPhone'),m=$('#applyMsg');
+ if(!n.value.trim()){m.textContent='Falta tu nombre.';n.focus();return}
+ if(ph.value.replace(/\D/g,'').length<10){m.textContent='Escribe tu WhatsApp a 10 dígitos.';ph.focus();return}
+ $('#applyForm').hidden=true;$('#applyOk').hidden=false};
+
+/* ---------- registro ---------- */
+const P={name:$('#pName'),tipo:$('#pTipo'),sexo:$('#pSexo'),age:$('#pAge'),height:$('#pHeight'),comp:$('#pComp'),city:$('#pCity'),shirt:$('#pShirt'),shoe:$('#pShoe'),tez:$('#pTez'),pelo:$('#pPelo'),tat:$('#pTat'),car:$('#pCar'),avail:$('#pAvail')};
+$('#pTez').innerHTML=TEZN.map((t,i)=>`<option value="${i}"${i===2?' selected':''}>${t}</option>`).join('');
+$('#pPelo').innerHTML=PELOS.map(([t,i])=>`<option value="${i}">${t}</option>`).join('');
+$('#skills').innerHTML=SKILLS.map(s=>`<button type="button" class="chip" aria-pressed="false">${s}</button>`).join('');
+const skillBtns=$$('#skills .chip');let photo=null;
+function render(){
+ const nm=P.name.value.trim();$('#gName').textContent=nm||'Tu nombre';$('#gType').textContent=P.tipo.value+' · '+P.city.value;
+ $('#gAge').textContent=P.age.value?P.age.value+' años':'—';$('#gHeight').textContent=P.height.value?(P.height.value/100).toFixed(2)+' m':'—';
+ $('#gSize').textContent=P.shirt.value+(P.shoe.value?' · '+P.shoe.value:'');
+ $('#gSkills').innerHTML=skillBtns.filter(b=>b.getAttribute('aria-pressed')==='true').map(b=>`<span>${b.textContent}</span>`).join('');
+ $('#gPhoto').innerHTML=photo?`<img src="${photo}" alt="Tu foto">`:`<div class="ini"><span>${nm?nm.split(' ').map(w=>w[0]).slice(0,2).join(''):'?'}</span><small>SUBE TU FOTO</small></div>`}
+function snap(){return{...Object.fromEntries(Object.entries(P).map(([k,e])=>[k,e.type==='checkbox'?e.checked:e.value])),skills:skillBtns.filter(b=>b.getAttribute('aria-pressed')==='true').map(b=>b.textContent)}}
+const save=()=>store.set('hc5_draft',snap());
+Object.values(P).forEach(e=>e.addEventListener('input',()=>{render();save()}));
+skillBtns.forEach(b=>b.onclick=()=>{b.setAttribute('aria-pressed',b.getAttribute('aria-pressed')!=='true');render();save()});
+$('#pPhoto').onchange=e=>{const f=e.target.files[0];if(!f)return;$('#photoLabel').textContent=f.name;const r=new FileReader();r.onload=()=>{photo=r.result;render()};r.readAsDataURL(f)};
+const d=store.get('hc5_draft');if(d){Object.entries(P).forEach(([k,e])=>{if(d[k]==null)return;e.type==='checkbox'?e.checked=d[k]:e.value=d[k]});skillBtns.forEach(b=>b.setAttribute('aria-pressed',(d.skills||[]).includes(b.textContent)))}
+render();
+$('#profileForm').onsubmit=e=>{e.preventDefault();const m=$('#profileMsg');
+ if(!P.name.value.trim()){m.textContent='Escribe tu nombre completo.';P.name.focus();return}
+ if(!P.age.value){m.textContent='Escribe tu edad.';P.age.focus();return}
+ if(!P.height.value){m.textContent='Escribe tu estatura en centímetros.';P.height.focus();return}
+ save();const old=TALENT.findIndex(p=>p.mine);
+ const me={id:'HC-'+(2000+(TALENT.length%900)),nombre:P.name.value.trim(),tipo:P.tipo.value,sexo:P.sexo.value,edad:+P.age.value,alt:+P.height.value,comp:P.comp.value,skin:+P.tez.value,pelo:+P.pelo.value,hair:'short',ojos:'—',skills:skillBtns.filter(b=>b.getAttribute('aria-pressed')==='true').map(b=>b.textContent),city:P.city.value,avail:P.avail.checked,tat:P.tat.checked,car:P.car.checked,talla:P.shirt.value,calzado:P.shoe.value||'—',exp:['Registro nuevo'],alta:999,mine:true,photo};
+ if(old>=0){me.id=TALENT[old].id;TALENT[old]=me}else TALENT.push(me);
+ $('#gId').textContent=me.id;m.textContent='Listo. Tu ficha ya aparece en el buscador como '+me.id+'.';toast('Registro guardado: '+me.id);run()};
+$('#resetProfile').onclick=()=>{$('#profileForm').reset();skillBtns.forEach(b=>b.setAttribute('aria-pressed','false'));photo=null;$('#photoLabel').textContent='Subir foto';store.del('hc5_draft');$('#profileMsg').textContent='';render()};
+
+/* ---------- proyectos ---------- */
+const CR={
+ televisa:['Como dice el dicho','Mi marido tiene más familia','La Rosa de Guadalupe','Esta historia me suena','Soltero y con hijas','Médicos','Sin miedo a la verdad','La mexicana y el güero','Quererlo todo','Vencer el desamor','El corazón nunca se equivoca','Fuego ardiente','Vencer el pasado','Contigo sí','Amor dividido','Mi fortuna es amarte','La herencia','Corazón guerrero','El último rey','Mi camino es amarte','Mi secreto','El amor invencible','Ella soy yo','Tierra de esperanza','Nadie como tú','Golpe de suerte','El maleficio','Vivir de amor','Tu vida es mi vida','Tal para cual','Regalo de amor','Amar','Hijas de la señora García','Amor amargo','Amanecer','Hilos del pasado','Hermanas: un amor compartido','Contenido vertical','Mi rival','Más vale sola','Guardián de mi vida','Tan cerca de ti','Corazón de oro','Hermanos Coraje','TUDN'],
+ tvazteca:['Prófugas del destino','Drenaje profundo','Emperatriz','Cielo Rojo','Huérfanas','La mujer de Judas','A corazón abierto','Quererte así','Amor cautivo','Los Rey','La otra cara del alma','Vivir a destiempo','Secretos de familia','Corazón de condominio','Prohibido amar','Siempre tuya Acapulco','Las Bravo','Así en el barrio como en el cielo','UEPA','Caminos de Guanajuato','Tanto amor','Un día cualquiera','Entre correr y vivir','Nada personal','Las malcriadas','Dos lagos','Tres milagros','Hernán','Desaparecida','Un día para vivir','Rutas de la vida','El Hormiguero','Lo que callamos las mujeres','Mujeres rompiendo el silencio','La hija pródiga'],
+ canal11:['Relatos de mujeres (1 y 2)','Curiosidades históricas','Rojo mexicano'],
+ cine:['El día de la unión','Flor','9 meses, 13 años y unos días','Luis Miguel','Valiendo madres','Mariachi'],
+ publicidad:[['Chili’s','Redes sociales'],['P.F. Chang’s','Redes sociales'],['Italianni’s','Redes sociales'],['Domino’s','Redes sociales'],['Sushi Itto','Campaña'],['Presidente','Campaña'],['SEP','Campaña'],['Elektra · Día de las Madres','Campaña'],['Elektra · Por fin es junio','Campaña'],['Cerveza Indio','Campaña'],['GMC','Campaña'],['Mochilas RUZ','Campaña'],['Universidad UTEL','Campaña'],['Tecate','Campaña'],['Playboy','Campaña'],['ganar.com','Campaña'],['Levi’s','Campaña'],['Coca-Cola','Redes sociales'],['Gobierno de Pachuca','Campaña 2021'],['Gobierno de Quintana Roo','Campaña 2021'],['SPIN Premia','Redes sociales']]};
+const CRL={televisa:'Televisa',tvazteca:'TV Azteca',canal11:'Canal 11',cine:'Cine y series'};
+const TOTAL=Object.values(CR).reduce((a,l)=>a+l.length,0);$('#totalN').textContent=TOTAL;
+function drawPJ(cat){const l=CR[cat];$('#posters').innerHTML=l.map(x=>Array.isArray(x)?`<div class="cr"><span>${x[1]}</span><b>${esc(x[0])}</b></div>`:`<div class="cr"><span>${CRL[cat]}</span><b>${esc(x)}</b></div>`).join('');
+ $$('.tab').forEach(t=>{t.setAttribute('aria-selected',t.dataset.cat===cat);const base=t.textContent.replace(/ \(\d+\)$/,'');t.textContent=`${base} (${CR[t.dataset.cat].length})`})}
+drawPJ('televisa');$$('.tab').forEach(t=>t.onclick=()=>drawPJ(t.dataset.cat));$$('a[data-cat]').forEach(a=>a.addEventListener('click',()=>drawPJ(a.dataset.cat)));
+
+/* ---------- agencia ---------- */
+const AG={
+ quienes:`<h3>¿Quiénes somos?</h3><p><b>Herrerías Casting</b> es una agencia de talento enfocada en cumplir las necesidades de nuestros clientes y desarrollar propuestas que sumen a cada proyecto. Gestionamos y representamos extras, actores, modelos, conductores y otros talentos frente a cámara.</p><p class="quote">“Nuestro objetivo es ser un aliado esencial del equipo de producción, no solamente un intermediario.”</p><div class="stats"><div class="stat"><b>12+</b><span>años de experiencia</span></div><div class="stat"><b>3</b><span>televisoras: Televisa, TV Azteca y Canal 11</span></div><div class="stat"><b>${TOTAL}</b><span>producciones y marcas en nuestro CV</span></div></div>`,
+ como:`<h3>¿Cómo trabajamos?</h3><p>Trabajamos de la mano del director de casting y del asistente de dirección para entender qué extras se necesitan: edad, género, etnia, vestuario y habilidades especiales.</p><div class="pillars"><div class="pillar"><h4>Nuestra respuesta</h4><p>Propuestas de talento, disponibilidad, tarifa sugerida y notas relevantes (fechas, exclusividades).</p></div><div class="pillar"><h4>Logística</h4><p>Registro completo de cada extra: contacto, horario, escena, vestuario. Coordinamos llegada, maquillaje y ubicación en set.</p></div><div class="pillar"><h4>Coordinación en set</h4><p>Instrucciones claras: qué hacer y cuándo, cómo actuar en segundo plano y repetir acciones para la continuidad.</p></div><div class="pillar"><h4>Manejo del grupo</h4><p>Puntualidad, respeto y silencio en tomas. Descansos, comidas, salidas y reemplazos de último momento.</p></div></div>`,
+ online:`<h3>Casting Online ¿Qué es?</h3><p>Es la forma de aplicar a un llamado sin ir a la oficina. Te registras una vez, eliges el llamado y confirmas tu disponibilidad. Para papeles con diálogo, mandas tu <b>self-tape</b> y nosotros lo presentamos a la producción.</p><a class="btn btn-pink btn-sm" href="#casting">Ver llamados abiertos</a>`,
+ porque:`<h3>¿Por qué Herrerías?</h3><p>Una operación pensada para que producción pueda concentrarse en contar la historia.</p><div class="pillars"><div class="pillar"><h4>Respuesta</h4><p>Propuestas de talento, disponibilidad, tarifa sugerida y notas relevantes.</p></div><div class="pillar"><h4>Logística</h4><p>Registro y coordinación de horarios, vestuario, maquillaje y ubicación en set.</p></div><div class="pillar"><h4>Continuidad</h4><p>Acciones claras y repetibles para mantener la continuidad de las escenas.</p></div><div class="pillar"><h4>Grupos</h4><p>Organización y manejo profesional de grupos grandes de talento.</p></div><div class="pillar"><h4>Set</h4><p>Coordinadores familiarizados con la dinámica y el lenguaje cinematográfico.</p></div><div class="pillar"><h4>Contingencias</h4><p>Respuesta ante reemplazos, cambios de último momento y otras necesidades.</p></div></div><p style="margin-top:16px">Capacitamos a cada integrante del equipo en lenguaje cinematográfico, experiencia práctica y habilidades de organización y liderazgo, para que nuestros coordinadores puedan cubrir varios roles en el set.</p>`,
+ clientes:`<h3>Nuestros clientes</h3><p>Experiencia en proyectos de Televisa, TV Azteca y Canal 11, incluyendo telenovelas, series, programas y contenido vertical, además de cine y campañas para marcas.</p><div class="brands">${['Televisa','TV Azteca','Canal 11','Coca-Cola','Levi’s','GMC','Tecate','Elektra','Cerveza Indio','Presidente','Sushi Itto','UTEL','SEP','Domino’s','P.F. Chang’s','Chili’s','Italianni’s','SPIN Premia'].map(b=>`<span>${b}</span>`).join('')}</div><a class="btn btn-sm" href="#proyectos" style="margin-top:16px">Ver todos los proyectos</a>`,
+ equipo:`<h3>Equipo directivo</h3><p>Una estructura enfocada en talento, operación y atención al cliente.</p><div class="team"><div class="member"><span class="role">Presidente</span><b>Rafael Herrerías Olea</b><span>+52 55 2728 0624</span><span>herreriascasting@gmail.com</span></div><div class="member"><span class="role">Director general</span><b>Emiliano Herrerías</b><span>+52 55 4817 6595</span><span>herreriascasting@gmail.com</span></div><div class="member"><span class="role">Dirección de talento</span><b>Ana Paulina Domínguez</b><span>herreriascasting@gmail.com</span></div></div>`,
+ privacidad:`<h3>Aviso de privacidad</h3><div class="privacy"><p><b>Herrerías Casting</b>, con domicilio en Av. Del Parque 3, Col. Campestre, Álvaro Obregón, C.P. 01040, Ciudad de México, es responsable del uso y protección de tus datos personales conforme a la Ley Federal de Protección de Datos Personales en Posesión de los Particulares.</p><h4>¿Para qué usamos tus datos?</h4><p>Para integrar tu ficha a nuestra base de talento, proponerte en llamados, contactarte y gestionar pagos.</p><h4>¿Qué datos recabamos?</h4><p>Nombre, edad, medidas, tallas, fotos, videos de audición, contacto y experiencia.</p><h4>Derechos ARCO</h4><p>Puedes acceder, rectificar, cancelar u oponerte al uso de tus datos escribiendo a herreriascasting@gmail.com.</p><p class="hint">Texto de referencia: revísenlo con su asesor legal antes de publicar.</p></div>`};
+function showAG(k){$('#agPanel').innerHTML=AG[k];$$('#agTabs button').forEach(b=>b.setAttribute('aria-selected',b.dataset.p===k))}
+showAG('quienes');$('#agTabs').onclick=e=>{const b=e.target.closest('button');if(b)showAG(b.dataset.p)};
+$$('[data-panel]').forEach(a=>a.addEventListener('click',()=>{showAG(a.dataset.panel);if(a.tagName==='BUTTON')$('#agencia').scrollIntoView({behavior:reduce?'auto':'smooth'})}));
+
+/* ---------- mapa ---------- */
+const mc=$('#map');
+function drawMap(){const r=mc.getBoundingClientRect();if(!r.width)return;const dpr=devicePixelRatio||1;mc.width=r.width*dpr;mc.height=r.height*dpr;const c=mc.getContext('2d');c.scale(dpr,dpr);const W=r.width,H=r.height;
+ c.fillStyle='#111114';c.fillRect(0,0,W,H);let s=11;const rn=()=>(s=(s*9301+49297)%233280)/233280;const cols=['#2a2a30','#232328','#1c1c21'];
+ for(let gx=0;gx<W;gx+=58)for(let gy=0;gy<H;gy+=50){c.fillStyle=cols[Math.floor(rn()*3)];c.globalAlpha=1;c.fillRect(gx+7,gy+7,44,36)}
+ c.globalAlpha=1;c.fillStyle='#1d2a22';c.beginPath();c.ellipse(W*.2,H*.72,W*.14,H*.14,.3,0,7);c.fill();c.strokeStyle='#3a3a40';c.lineWidth=10;
+ c.lineCap='round';c.lineWidth=10;c.beginPath();c.moveTo(-10,H*.6);c.bezierCurveTo(W*.3,H*.48,W*.6,H*.62,W+10,H*.32);c.stroke();
+ c.strokeStyle='#5a5850';c.lineWidth=2;c.setLineDash([10,10]);c.stroke();c.setLineDash([]);
+ c.strokeStyle='#3a3a40';c.lineWidth=8;c.beginPath();c.moveTo(W*.38,-10);c.lineTo(W*.64,H+10);c.stroke();
+ c.fillStyle='#8c887f';c.font='500 12px "IBM Plex Mono",monospace';c.fillText('COL. CAMPESTRE',W*.40+10,H*.14);c.fillText('AV. DEL PARQUE',Math.min(W*.66,W-150),H*.4)}
+drawMap();addEventListener('resize',drawMap);
+
+/* ---------- contacto ---------- */
+$$('.copy').forEach(b=>b.onclick=()=>copy(b.dataset.copy,b.previousElementSibling));
+$('#contactForm').onsubmit=e=>{e.preventDefault();const m=$('#contactMsg'),n=$('#cName'),ma=$('#cMail'),t=$('#cMsg');
+ if(!n.value.trim()){m.textContent='Escribe tu nombre.';n.focus();return}
+ if(!/^\S+@\S+\.\S+$/.test(ma.value)){m.textContent='Revisa el correo, parece incompleto.';ma.focus();return}
+ if(!t.value.trim()){m.textContent='Cuéntanos qué perfiles buscas.';t.focus();return}
+ m.textContent='';const dt=$('#cDate').value?new Date($('#cDate').value+'T12:00').toLocaleDateString('es-MX',{day:'numeric',month:'long',year:'numeric'}):'Por definir';
+ $('#summaryText').textContent=`SOLICITUD DE CASTING — HERRERÍAS CASTING\n\nNombre: ${n.value}\nProductora: ${$('#cCompany').value||'—'}\nCorreo: ${ma.value}\nTeléfono: ${$('#cPhone').value||'—'}\nProyecto: ${$('#cKind').value}\nNúmero de extras: ${$('#cQty').value||'—'}\nFecha de llamado: ${dt}\nLocación: ${$('#cPlace').value||'—'}\n\nPerfiles:\n${t.value}`;
+ $('#summary').hidden=false;toast('Solicitud lista')};
+$('#copySummary').onclick=()=>copy($('#summaryText').textContent,$('#summaryText'));
+
+syncUI();run();drawSel();qCount();
+})();
+
+
+</script>
+
+</body></html>
