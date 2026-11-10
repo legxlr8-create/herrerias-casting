@@ -594,7 +594,7 @@ html{scroll-padding-top:100px}
   <div class="wrap">
     <div class="sec-head">
       <div><span class="kicker">Registro de extras y talento</span><h2>Mi perfil</h2></div>
-      <p>Llena tu ficha una sola vez. Con tus medidas y tallas, la agencia te encuentra en segundos cuando un llamado busca a alguien como tú.</p>
+      <p>Llena tu ficha y envíala por WhatsApp a la agencia con 2 fotos (rostro y cuerpo completo). Así te tenemos en cuenta cuando un llamado busque a alguien como tú.</p>
     </div>
     <div class="profile">
       <form class="card" id="profileForm" novalidate>
@@ -619,7 +619,7 @@ html{scroll-padding-top:100px}
           <div class="field full"><span class="lbl">Foto (opcional)</span>
             <label class="upload" for="pPhoto"><span class="ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4 7h3l2-3h6l2 3h3v13H4z" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="13" r="4" stroke="currentColor" stroke-width="2"/></svg></span><span><b id="photoLabel">Subir foto</b><br><span class="hint">Retrato de frente, con buena luz.</span></span><input id="pPhoto" type="file" accept="image/*"></label></div>
         </div>
-        <div class="form-actions"><button class="btn btn-ink" type="submit">Registrarme</button><button class="btn" type="button" id="resetProfile">Limpiar</button><span class="hint" id="profileMsg"></span></div>
+        <div class="form-actions"><button class="btn btn-ink" type="submit">Registrarme por WhatsApp</button><button class="btn" type="button" id="resetProfile">Limpiar</button><span class="hint" id="profileMsg"></span></div>
       </form>
       <aside class="ficha-prev" id="gafete" aria-label="Vista previa de tu ficha">
         <div class="fp-head"><span>FICHA DE TALENTO</span><span id="gId">HC-0000</span></div>
@@ -1046,7 +1046,12 @@ $('#profileForm').onsubmit=e=>{e.preventDefault();const m=$('#profileMsg');
  save();const old=TALENT.findIndex(p=>p.mine);
  const me={id:'HC-'+(2000+(TALENT.length%900)),nombre:P.name.value.trim(),tipo:P.tipo.value,sexo:P.sexo.value,edad:+P.age.value,alt:+P.height.value,comp:P.comp.value,skin:+P.tez.value,pelo:+P.pelo.value,hair:'short',ojos:'—',skills:skillBtns.filter(b=>b.getAttribute('aria-pressed')==='true').map(b=>b.textContent),city:P.city.value,avail:P.avail.checked,tat:P.tat.checked,car:P.car.checked,talla:P.shirt.value,calzado:P.shoe.value||'—',exp:['Registro nuevo'],alta:999,mine:true,photo};
  if(old>=0){me.id=TALENT[old].id;TALENT[old]=me}else TALENT.push(me);
- $('#gId').textContent=me.id;m.textContent='Listo. Tu ficha ya aparece en el buscador como '+me.id+'.';toast('Registro guardado: '+me.id);run()};
+ $('#gId').textContent=me.id;run();
+ const txt=`REGISTRO · HERRERÍAS CASTING\nNombre: ${me.nombre}\nMe registro como: ${me.tipo}\nSexo: ${me.sexo}\nEdad: ${me.edad}\nEstatura: ${me.alt} cm\nComplexión: ${me.comp}\nCiudad: ${me.city}\nTalla de camisa: ${me.talla}\nCalzado: ${me.calzado}\nHabilidades: ${me.skills.join(', ')||'—'}\nTatuajes visibles: ${me.tat?'Sí':'No'}\nAuto propio: ${me.car?'Sí':'No'}\n\n(Adjunto 2 fotos: rostro y cuerpo completo)`;
+ const url='https://wa.me/525548176595?text='+encodeURIComponent(txt);
+ m.innerHTML='Listo. Se abrió WhatsApp con tu ficha: envía el mensaje y <b>adjunta 2 fotos</b> (rostro y cuerpo completo). Si no se abrió, <a href="'+url+'" target="_blank" rel="noopener" style="text-decoration:underline">da clic aquí</a>.';
+ toast('Abriendo WhatsApp para enviar tu registro');
+ const w=window.open(url,'_blank');if(w){try{w.opener=null}catch(_){}}else location.href=url};
 $('#resetProfile').onclick=()=>{$('#profileForm').reset();skillBtns.forEach(b=>b.setAttribute('aria-pressed','false'));photo=null;$('#photoLabel').textContent='Subir foto';store.del('hc5_draft');$('#profileMsg').textContent='';render()};
 
 /* ---------- proyectos ---------- */
